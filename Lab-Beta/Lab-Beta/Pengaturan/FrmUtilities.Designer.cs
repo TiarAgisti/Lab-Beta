@@ -31,48 +31,48 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmUtilities));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPekerjaan = new System.Windows.Forms.TabPage();
-            this.tabBagian = new System.Windows.Forms.TabPage();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.txtNamaPekerjaan = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtIdPekerjaan = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnCariPekerjaan = new System.Windows.Forms.Button();
-            this.txtCariPekerjaan = new System.Windows.Forms.TextBox();
-            this.dgvPekerjaan = new System.Windows.Forms.DataGridView();
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnKeluarPekerjaan = new System.Windows.Forms.Button();
             this.btnHapusPekerjaan = new System.Windows.Forms.Button();
             this.btnBatalPekerjaan = new System.Windows.Forms.Button();
             this.btnEditPekerjaan = new System.Windows.Forms.Button();
             this.btnSimpanPekerjaan = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.txtBagian = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtIdBagian = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnCariBagian = new System.Windows.Forms.Button();
-            this.txtCariBagian = new System.Windows.Forms.TextBox();
-            this.dgvBagian = new System.Windows.Forms.DataGridView();
+            this.dgvPekerjaan = new System.Windows.Forms.DataGridView();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnCariPekerjaan = new System.Windows.Forms.Button();
+            this.txtCariPekerjaan = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.txtNamaPekerjaan = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtIdPekerjaan = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.tabBagian = new System.Windows.Forms.TabPage();
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnKeluarBagian = new System.Windows.Forms.Button();
             this.btnHapusBagian = new System.Windows.Forms.Button();
             this.btnBatalBagian = new System.Windows.Forms.Button();
             this.btnEditBagian = new System.Windows.Forms.Button();
             this.btnSimpanBagian = new System.Windows.Forms.Button();
+            this.dgvBagian = new System.Windows.Forms.DataGridView();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnCariBagian = new System.Windows.Forms.Button();
+            this.txtCariBagian = new System.Windows.Forms.TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.txtBagian = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtIdBagian = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPekerjaan.SuspendLayout();
-            this.tabBagian.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPekerjaan)).BeginInit();
             this.panel4.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvBagian)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPekerjaan)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.tabBagian.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvBagian)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -99,103 +99,6 @@
             this.tabPekerjaan.Size = new System.Drawing.Size(518, 350);
             this.tabPekerjaan.TabIndex = 0;
             this.tabPekerjaan.Text = "Pekerjaan";
-            // 
-            // tabBagian
-            // 
-            this.tabBagian.BackColor = System.Drawing.SystemColors.Control;
-            this.tabBagian.Controls.Add(this.panel3);
-            this.tabBagian.Controls.Add(this.dgvBagian);
-            this.tabBagian.Controls.Add(this.groupBox1);
-            this.tabBagian.Controls.Add(this.panel2);
-            this.tabBagian.Location = new System.Drawing.Point(4, 22);
-            this.tabBagian.Name = "tabBagian";
-            this.tabBagian.Padding = new System.Windows.Forms.Padding(3);
-            this.tabBagian.Size = new System.Drawing.Size(518, 350);
-            this.tabBagian.TabIndex = 1;
-            this.tabBagian.Text = "Bagian";
-            // 
-            // panel1
-            // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.txtNamaPekerjaan);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.txtIdPekerjaan);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(3, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(512, 70);
-            this.panel1.TabIndex = 1;
-            // 
-            // txtNamaPekerjaan
-            // 
-            this.txtNamaPekerjaan.Location = new System.Drawing.Point(62, 34);
-            this.txtNamaPekerjaan.Name = "txtNamaPekerjaan";
-            this.txtNamaPekerjaan.Size = new System.Drawing.Size(214, 20);
-            this.txtNamaPekerjaan.TabIndex = 7;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(1, 37);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 13);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Pekerjaan";
-            // 
-            // txtIdPekerjaan
-            // 
-            this.txtIdPekerjaan.Location = new System.Drawing.Point(62, 8);
-            this.txtIdPekerjaan.Name = "txtIdPekerjaan";
-            this.txtIdPekerjaan.Size = new System.Drawing.Size(100, 20);
-            this.txtIdPekerjaan.TabIndex = 5;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(1, 11);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(18, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "ID";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.btnCariPekerjaan);
-            this.groupBox2.Controls.Add(this.txtCariPekerjaan);
-            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupBox2.Location = new System.Drawing.Point(3, 73);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(512, 53);
-            this.groupBox2.TabIndex = 5;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Pencarian Data";
-            // 
-            // btnCariPekerjaan
-            // 
-            this.btnCariPekerjaan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnCariPekerjaan.Image = ((System.Drawing.Image)(resources.GetObject("btnCariPekerjaan.Image")));
-            this.btnCariPekerjaan.Location = new System.Drawing.Point(319, 11);
-            this.btnCariPekerjaan.Name = "btnCariPekerjaan";
-            this.btnCariPekerjaan.Size = new System.Drawing.Size(75, 36);
-            this.btnCariPekerjaan.TabIndex = 176;
-            this.btnCariPekerjaan.UseVisualStyleBackColor = true;
-            // 
-            // txtCariPekerjaan
-            // 
-            this.txtCariPekerjaan.Location = new System.Drawing.Point(8, 19);
-            this.txtCariPekerjaan.Name = "txtCariPekerjaan";
-            this.txtCariPekerjaan.Size = new System.Drawing.Size(305, 20);
-            this.txtCariPekerjaan.TabIndex = 176;
-            // 
-            // dgvPekerjaan
-            // 
-            this.dgvPekerjaan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPekerjaan.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgvPekerjaan.Location = new System.Drawing.Point(3, 126);
-            this.dgvPekerjaan.Name = "dgvPekerjaan";
-            this.dgvPekerjaan.Size = new System.Drawing.Size(512, 165);
-            this.dgvPekerjaan.TabIndex = 8;
             // 
             // panel4
             // 
@@ -271,88 +174,102 @@
             this.btnSimpanPekerjaan.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSimpanPekerjaan.UseVisualStyleBackColor = true;
             // 
-            // panel2
+            // dgvPekerjaan
             // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.txtBagian);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.txtIdBagian);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(3, 3);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(512, 70);
-            this.panel2.TabIndex = 1;
+            this.dgvPekerjaan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPekerjaan.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgvPekerjaan.Location = new System.Drawing.Point(3, 126);
+            this.dgvPekerjaan.Name = "dgvPekerjaan";
+            this.dgvPekerjaan.Size = new System.Drawing.Size(512, 165);
+            this.dgvPekerjaan.TabIndex = 8;
             // 
-            // txtBagian
+            // groupBox2
             // 
-            this.txtBagian.Location = new System.Drawing.Point(47, 34);
-            this.txtBagian.Name = "txtBagian";
-            this.txtBagian.Size = new System.Drawing.Size(214, 20);
-            this.txtBagian.TabIndex = 7;
+            this.groupBox2.Controls.Add(this.btnCariPekerjaan);
+            this.groupBox2.Controls.Add(this.txtCariPekerjaan);
+            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox2.Location = new System.Drawing.Point(3, 73);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(512, 53);
+            this.groupBox2.TabIndex = 5;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Pencarian Data";
             // 
-            // label1
+            // btnCariPekerjaan
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(1, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 13);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Bagian";
+            this.btnCariPekerjaan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnCariPekerjaan.Image = ((System.Drawing.Image)(resources.GetObject("btnCariPekerjaan.Image")));
+            this.btnCariPekerjaan.Location = new System.Drawing.Point(319, 11);
+            this.btnCariPekerjaan.Name = "btnCariPekerjaan";
+            this.btnCariPekerjaan.Size = new System.Drawing.Size(75, 36);
+            this.btnCariPekerjaan.TabIndex = 176;
+            this.btnCariPekerjaan.UseVisualStyleBackColor = true;
             // 
-            // txtIdBagian
+            // txtCariPekerjaan
             // 
-            this.txtIdBagian.Location = new System.Drawing.Point(47, 8);
-            this.txtIdBagian.Name = "txtIdBagian";
-            this.txtIdBagian.Size = new System.Drawing.Size(100, 20);
-            this.txtIdBagian.TabIndex = 5;
+            this.txtCariPekerjaan.Location = new System.Drawing.Point(8, 19);
+            this.txtCariPekerjaan.Name = "txtCariPekerjaan";
+            this.txtCariPekerjaan.Size = new System.Drawing.Size(305, 20);
+            this.txtCariPekerjaan.TabIndex = 176;
             // 
-            // label4
+            // panel1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(1, 11);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(18, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "ID";
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.txtNamaPekerjaan);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.txtIdPekerjaan);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(512, 70);
+            this.panel1.TabIndex = 1;
             // 
-            // groupBox1
+            // txtNamaPekerjaan
             // 
-            this.groupBox1.Controls.Add(this.btnCariBagian);
-            this.groupBox1.Controls.Add(this.txtCariBagian);
-            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupBox1.Location = new System.Drawing.Point(3, 73);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(512, 53);
-            this.groupBox1.TabIndex = 5;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Pencarian Data";
+            this.txtNamaPekerjaan.Location = new System.Drawing.Point(62, 34);
+            this.txtNamaPekerjaan.Name = "txtNamaPekerjaan";
+            this.txtNamaPekerjaan.Size = new System.Drawing.Size(214, 20);
+            this.txtNamaPekerjaan.TabIndex = 7;
             // 
-            // btnCariBagian
+            // label3
             // 
-            this.btnCariBagian.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnCariBagian.Image = ((System.Drawing.Image)(resources.GetObject("btnCariBagian.Image")));
-            this.btnCariBagian.Location = new System.Drawing.Point(319, 10);
-            this.btnCariBagian.Name = "btnCariBagian";
-            this.btnCariBagian.Size = new System.Drawing.Size(75, 36);
-            this.btnCariBagian.TabIndex = 176;
-            this.btnCariBagian.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(1, 37);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(55, 13);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Pekerjaan";
             // 
-            // txtCariBagian
+            // txtIdPekerjaan
             // 
-            this.txtCariBagian.Location = new System.Drawing.Point(8, 19);
-            this.txtCariBagian.Name = "txtCariBagian";
-            this.txtCariBagian.Size = new System.Drawing.Size(305, 20);
-            this.txtCariBagian.TabIndex = 176;
+            this.txtIdPekerjaan.Location = new System.Drawing.Point(62, 8);
+            this.txtIdPekerjaan.Name = "txtIdPekerjaan";
+            this.txtIdPekerjaan.Size = new System.Drawing.Size(100, 20);
+            this.txtIdPekerjaan.TabIndex = 5;
             // 
-            // dgvBagian
+            // label2
             // 
-            this.dgvBagian.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvBagian.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgvBagian.Location = new System.Drawing.Point(3, 126);
-            this.dgvBagian.Name = "dgvBagian";
-            this.dgvBagian.Size = new System.Drawing.Size(512, 165);
-            this.dgvBagian.TabIndex = 6;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(1, 11);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(18, 13);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "ID";
+            // 
+            // tabBagian
+            // 
+            this.tabBagian.BackColor = System.Drawing.SystemColors.Control;
+            this.tabBagian.Controls.Add(this.panel3);
+            this.tabBagian.Controls.Add(this.dgvBagian);
+            this.tabBagian.Controls.Add(this.groupBox1);
+            this.tabBagian.Controls.Add(this.panel2);
+            this.tabBagian.Location = new System.Drawing.Point(4, 22);
+            this.tabBagian.Name = "tabBagian";
+            this.tabBagian.Padding = new System.Windows.Forms.Padding(3);
+            this.tabBagian.Size = new System.Drawing.Size(518, 350);
+            this.tabBagian.TabIndex = 1;
+            this.tabBagian.Text = "Bagian";
             // 
             // panel3
             // 
@@ -428,6 +345,89 @@
             this.btnSimpanBagian.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSimpanBagian.UseVisualStyleBackColor = true;
             // 
+            // dgvBagian
+            // 
+            this.dgvBagian.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvBagian.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgvBagian.Location = new System.Drawing.Point(3, 126);
+            this.dgvBagian.Name = "dgvBagian";
+            this.dgvBagian.Size = new System.Drawing.Size(512, 165);
+            this.dgvBagian.TabIndex = 6;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.btnCariBagian);
+            this.groupBox1.Controls.Add(this.txtCariBagian);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox1.Location = new System.Drawing.Point(3, 73);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(512, 53);
+            this.groupBox1.TabIndex = 5;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Pencarian Data";
+            // 
+            // btnCariBagian
+            // 
+            this.btnCariBagian.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnCariBagian.Image = ((System.Drawing.Image)(resources.GetObject("btnCariBagian.Image")));
+            this.btnCariBagian.Location = new System.Drawing.Point(319, 10);
+            this.btnCariBagian.Name = "btnCariBagian";
+            this.btnCariBagian.Size = new System.Drawing.Size(75, 36);
+            this.btnCariBagian.TabIndex = 176;
+            this.btnCariBagian.UseVisualStyleBackColor = true;
+            // 
+            // txtCariBagian
+            // 
+            this.txtCariBagian.Location = new System.Drawing.Point(8, 19);
+            this.txtCariBagian.Name = "txtCariBagian";
+            this.txtCariBagian.Size = new System.Drawing.Size(305, 20);
+            this.txtCariBagian.TabIndex = 176;
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.txtBagian);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.txtIdBagian);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(3, 3);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(512, 70);
+            this.panel2.TabIndex = 1;
+            // 
+            // txtBagian
+            // 
+            this.txtBagian.Location = new System.Drawing.Point(47, 34);
+            this.txtBagian.Name = "txtBagian";
+            this.txtBagian.Size = new System.Drawing.Size(214, 20);
+            this.txtBagian.TabIndex = 7;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(1, 37);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(40, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Bagian";
+            // 
+            // txtIdBagian
+            // 
+            this.txtIdBagian.Location = new System.Drawing.Point(47, 8);
+            this.txtIdBagian.Name = "txtIdBagian";
+            this.txtIdBagian.Size = new System.Drawing.Size(100, 20);
+            this.txtIdBagian.TabIndex = 5;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(1, 11);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(18, 13);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "ID";
+            // 
             // FrmUtilities
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -439,22 +439,23 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmUtilities";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pengaturan Tambahan";
             this.tabControl1.ResumeLayout(false);
             this.tabPekerjaan.ResumeLayout(false);
-            this.tabBagian.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPekerjaan)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPekerjaan)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.tabBagian.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvBagian)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvBagian)).EndInit();
-            this.panel3.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }

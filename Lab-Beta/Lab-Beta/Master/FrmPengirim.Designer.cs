@@ -1,6 +1,6 @@
 ﻿namespace Lab_Beta.Master
 {
-    partial class FrmSupplier
+    partial class FrmPengirim
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSupplier));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPengirim));
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -92,9 +92,9 @@
             this.label1.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(732, 37);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Master Supplier";
+            this.label1.Size = new System.Drawing.Size(717, 37);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Master Pengirim";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel1
@@ -128,8 +128,8 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 37);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(732, 289);
-            this.panel1.TabIndex = 3;
+            this.panel1.Size = new System.Drawing.Size(717, 289);
+            this.panel1.TabIndex = 4;
             // 
             // groupBox1
             // 
@@ -420,9 +420,9 @@
             this.Label5.AutoSize = true;
             this.Label5.Location = new System.Drawing.Point(7, 43);
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(76, 13);
+            this.Label5.Size = new System.Drawing.Size(78, 13);
             this.Label5.TabIndex = 63;
-            this.Label5.Text = "Nama Supplier";
+            this.Label5.Text = "Nama Pengirim";
             // 
             // txtKodePassien
             // 
@@ -436,9 +436,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(7, 18);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 13);
+            this.label2.Size = new System.Drawing.Size(75, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Kode Supplier";
+            this.label2.Text = "Kode Pengirim";
             // 
             // groupBox2
             // 
@@ -448,8 +448,8 @@
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox2.Location = new System.Drawing.Point(0, 326);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(732, 53);
-            this.groupBox2.TabIndex = 4;
+            this.groupBox2.Size = new System.Drawing.Size(717, 53);
+            this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Pencarian Data";
             // 
@@ -484,8 +484,8 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Top;
             this.dataGridView1.Location = new System.Drawing.Point(0, 379);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(732, 165);
-            this.dataGridView1.TabIndex = 5;
+            this.dataGridView1.Size = new System.Drawing.Size(717, 165);
+            this.dataGridView1.TabIndex = 6;
             // 
             // panel2
             // 
@@ -496,10 +496,10 @@
             this.panel2.Controls.Add(this.button3);
             this.panel2.Controls.Add(this.button2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 542);
+            this.panel2.Location = new System.Drawing.Point(0, 543);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(732, 57);
-            this.panel2.TabIndex = 6;
+            this.panel2.Size = new System.Drawing.Size(717, 57);
+            this.panel2.TabIndex = 7;
             // 
             // button7
             // 
@@ -561,23 +561,22 @@
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // FrmSupplier
+            // FrmPengirim
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(732, 599);
+            this.ClientSize = new System.Drawing.Size(717, 600);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "FrmSupplier";
+            this.Name = "FrmPengirim";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Supplier";
+            this.Text = "Pengirim";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -594,14 +593,18 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        internal System.Windows.Forms.TextBox TextBox4;
-        internal System.Windows.Forms.TextBox TextBox3;
-        internal System.Windows.Forms.TextBox TextBox2;
-        internal System.Windows.Forms.Label Label11;
-        internal System.Windows.Forms.Label Label6;
-        internal System.Windows.Forms.Label Label5;
-        private System.Windows.Forms.TextBox txtKodePassien;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.GroupBox groupBox1;
+        internal System.Windows.Forms.Label Label30;
+        internal System.Windows.Forms.TextBox textBox8;
+        internal System.Windows.Forms.TextBox TextBox9;
+        internal System.Windows.Forms.Label Label31;
+        internal System.Windows.Forms.TextBox textBox10;
+        internal System.Windows.Forms.Label label28;
+        internal System.Windows.Forms.ComboBox ComboBox8;
+        internal System.Windows.Forms.Label label27;
+        internal System.Windows.Forms.ComboBox ComboBox7;
+        internal System.Windows.Forms.Label label26;
+        internal System.Windows.Forms.Label label25;
         private System.Windows.Forms.ComboBox comboBox6;
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.ComboBox comboBox3;
@@ -618,18 +621,14 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.GroupBox groupBox1;
-        internal System.Windows.Forms.Label Label30;
-        internal System.Windows.Forms.TextBox textBox8;
-        internal System.Windows.Forms.TextBox TextBox9;
-        internal System.Windows.Forms.Label Label31;
-        internal System.Windows.Forms.TextBox textBox10;
-        internal System.Windows.Forms.Label label28;
-        internal System.Windows.Forms.ComboBox ComboBox8;
-        internal System.Windows.Forms.Label label27;
-        internal System.Windows.Forms.ComboBox ComboBox7;
-        internal System.Windows.Forms.Label label26;
-        internal System.Windows.Forms.Label label25;
+        internal System.Windows.Forms.TextBox TextBox4;
+        internal System.Windows.Forms.TextBox TextBox3;
+        internal System.Windows.Forms.TextBox TextBox2;
+        internal System.Windows.Forms.Label Label11;
+        internal System.Windows.Forms.Label Label6;
+        internal System.Windows.Forms.Label Label5;
+        private System.Windows.Forms.TextBox txtKodePassien;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button button1;
         internal System.Windows.Forms.TextBox textBox11;
