@@ -58,16 +58,16 @@
     <Compile Include="Master\FrmPasien.designer.cs">
       <DependentUpon>FrmPasien.cs</DependentUpon>
     </Compile>
-    <Compile Include="Master\FrmPengaturanMedis.cs">
+    <Compile Include="Pengaturan\FrmPengaturanMedis.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Master\FrmPengaturanMedis.Designer.cs">
+    <Compile Include="Pengaturan\FrmPengaturanMedis.Designer.cs">
       <DependentUpon>FrmPengaturanMedis.cs</DependentUpon>
     </Compile>
-    <Compile Include="Master\FrmPengaturanPembayaran.cs">
+    <Compile Include="Pengaturan\FrmPengaturanPembayaran.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Master\FrmPengaturanPembayaran.Designer.cs">
+    <Compile Include="Pengaturan\FrmPengaturanPembayaran.Designer.cs">
       <DependentUpon>FrmPengaturanPembayaran.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -78,10 +78,10 @@
     <EmbeddedResource Include="Master\FrmPasien.resx">
       <DependentUpon>FrmPasien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Master\FrmPengaturanMedis.resx">
+    <EmbeddedResource Include="Pengaturan\FrmPengaturanMedis.resx">
       <DependentUpon>FrmPengaturanMedis.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Master\FrmPengaturanPembayaran.resx">
+    <EmbeddedResource Include="Pengaturan\FrmPengaturanPembayaran.resx">
       <DependentUpon>FrmPengaturanPembayaran.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
