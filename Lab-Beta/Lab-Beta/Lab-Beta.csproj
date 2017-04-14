@@ -90,6 +90,9 @@
     <EmbeddedResource Include="Master\FrmPasien.resx">
       <DependentUpon>FrmPasien.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmSupplier.resx">
+      <DependentUpon>FrmSupplier.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pengaturan\FrmPengaturanMedis.resx">
       <DependentUpon>FrmPengaturanMedis.cs</DependentUpon>
     </EmbeddedResource>
