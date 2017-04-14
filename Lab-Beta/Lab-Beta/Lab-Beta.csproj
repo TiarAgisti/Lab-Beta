@@ -55,15 +55,23 @@
     <Compile Include="Master\FrmDokter.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Master\FrmDokter.Designer.cs" />
+    <Compile Include="Master\FrmDokter.designer.cs">
+      <DependentUpon>FrmDokter.cs</DependentUpon>
+    </Compile>
     <Compile Include="Master\FrmPasien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Master\FrmPasien.Designer.cs" />
+    <Compile Include="Master\FrmPasien.designer.cs">
+      <DependentUpon>FrmPasien.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Master\FrmDokter.resx" />
-    <EmbeddedResource Include="Master\FrmPasien.resx" />
+    <EmbeddedResource Include="Master\FrmDokter.resx">
+      <DependentUpon>FrmDokter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmPasien.resx">
+      <DependentUpon>FrmPasien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
