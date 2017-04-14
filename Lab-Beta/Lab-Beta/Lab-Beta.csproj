@@ -64,6 +64,12 @@
     <Compile Include="Master\FrmPengirim.Designer.cs">
       <DependentUpon>FrmPengirim.cs</DependentUpon>
     </Compile>
+    <Compile Include="Master\FrmRujukan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmRujukan.Designer.cs">
+      <DependentUpon>FrmRujukan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Master\FrmSupplier.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Master\FrmPengirim.resx">
       <DependentUpon>FrmPengirim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmRujukan.resx">
+      <DependentUpon>FrmRujukan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Master\FrmSupplier.resx">
       <DependentUpon>FrmSupplier.cs</DependentUpon>

@@ -1,6 +1,6 @@
 ﻿namespace Lab_Beta.Master
 {
-    partial class FrmPengirim
+    partial class FrmRujukan
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPengirim));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmRujukan));
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -92,9 +92,9 @@
             this.label1.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(717, 37);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Master Pengirim";
+            this.label1.Size = new System.Drawing.Size(804, 37);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Master Rujukan";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel1
@@ -128,8 +128,8 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 37);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(717, 289);
-            this.panel1.TabIndex = 4;
+            this.panel1.Size = new System.Drawing.Size(804, 289);
+            this.panel1.TabIndex = 5;
             // 
             // groupBox1
             // 
@@ -422,7 +422,7 @@
             this.Label5.Name = "Label5";
             this.Label5.Size = new System.Drawing.Size(78, 13);
             this.Label5.TabIndex = 63;
-            this.Label5.Text = "Nama Pengirim";
+            this.Label5.Text = "Nama Rujukan";
             // 
             // txtKodePassien
             // 
@@ -438,7 +438,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Kode Pengirim";
+            this.label2.Text = "Kode Rujukan";
             // 
             // groupBox2
             // 
@@ -448,8 +448,8 @@
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox2.Location = new System.Drawing.Point(0, 326);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(717, 53);
-            this.groupBox2.TabIndex = 5;
+            this.groupBox2.Size = new System.Drawing.Size(804, 53);
+            this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Pencarian Data";
             // 
@@ -484,8 +484,8 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Top;
             this.dataGridView1.Location = new System.Drawing.Point(0, 379);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(717, 165);
-            this.dataGridView1.TabIndex = 6;
+            this.dataGridView1.Size = new System.Drawing.Size(804, 165);
+            this.dataGridView1.TabIndex = 7;
             // 
             // panel2
             // 
@@ -498,8 +498,8 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 543);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(717, 57);
-            this.panel2.TabIndex = 7;
+            this.panel2.Size = new System.Drawing.Size(804, 57);
+            this.panel2.TabIndex = 8;
             // 
             // button7
             // 
@@ -561,11 +561,11 @@
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // FrmPengirim
+            // FrmRujukan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(717, 600);
+            this.ClientSize = new System.Drawing.Size(804, 600);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox2);
@@ -575,9 +575,9 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "FrmPengirim";
+            this.Name = "FrmRujukan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Pengirim";
+            this.Text = "Rujukan";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
