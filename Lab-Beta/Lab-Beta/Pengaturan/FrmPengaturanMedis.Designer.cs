@@ -31,96 +31,96 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPengaturanMedis));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabSpesialisasi = new System.Windows.Forms.TabPage();
-            this.tabGolDarah = new System.Windows.Forms.TabPage();
-            this.tabPrioritas = new System.Windows.Forms.TabPage();
-            this.tabPoli = new System.Windows.Forms.TabPage();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.txtKdSpesial = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtIdSpesial = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtKetSpesial = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnCariSpesial = new System.Windows.Forms.Button();
-            this.txtCariSpesial = new System.Windows.Forms.TextBox();
-            this.dgvSpesial = new System.Windows.Forms.DataGridView();
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnKeluarSpesial = new System.Windows.Forms.Button();
             this.btnHapusSpesial = new System.Windows.Forms.Button();
             this.btnBatalSpesial = new System.Windows.Forms.Button();
             this.btnEditSpesial = new System.Windows.Forms.Button();
             this.btnSimpanSpesial = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.txtTypeGol = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtNmGol = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtIdGol = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtRhesus = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnCariGol = new System.Windows.Forms.Button();
-            this.txtCariGol = new System.Windows.Forms.TextBox();
-            this.dgvGol = new System.Windows.Forms.DataGridView();
+            this.dgvSpesial = new System.Windows.Forms.DataGridView();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnCariSpesial = new System.Windows.Forms.Button();
+            this.txtCariSpesial = new System.Windows.Forms.TextBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.txtKetSpesial = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtKdSpesial = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtIdSpesial = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.tabGolDarah = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnKeluarGol = new System.Windows.Forms.Button();
             this.btnHapusGol = new System.Windows.Forms.Button();
             this.btnBatalGol = new System.Windows.Forms.Button();
             this.btnEditGol = new System.Windows.Forms.Button();
             this.btnSimpanGol = new System.Windows.Forms.Button();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.txtNmPrio = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtIdPrio = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.btnCariPrio = new System.Windows.Forms.Button();
-            this.txtCariPrio = new System.Windows.Forms.TextBox();
-            this.dgvPrio = new System.Windows.Forms.DataGridView();
+            this.dgvGol = new System.Windows.Forms.DataGridView();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnCariGol = new System.Windows.Forms.Button();
+            this.txtCariGol = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.txtRhesus = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtTypeGol = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtNmGol = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtIdGol = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.tabPrioritas = new System.Windows.Forms.TabPage();
             this.panel6 = new System.Windows.Forms.Panel();
             this.btnKeluarPrio = new System.Windows.Forms.Button();
             this.btnHapusPrio = new System.Windows.Forms.Button();
             this.btnBatalPrio = new System.Windows.Forms.Button();
             this.btnEditPrio = new System.Windows.Forms.Button();
             this.btnSimpanPrio = new System.Windows.Forms.Button();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.txtNamaPoli = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.txtIdPoli = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.btnCariPoli = new System.Windows.Forms.Button();
-            this.txtCariPoli = new System.Windows.Forms.TextBox();
-            this.dgvPoli = new System.Windows.Forms.DataGridView();
+            this.dgvPrio = new System.Windows.Forms.DataGridView();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnCariPrio = new System.Windows.Forms.Button();
+            this.txtCariPrio = new System.Windows.Forms.TextBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.txtNmPrio = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtIdPrio = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.tabPoli = new System.Windows.Forms.TabPage();
             this.panel8 = new System.Windows.Forms.Panel();
             this.btnKeluarPoli = new System.Windows.Forms.Button();
             this.btnHapusPoli = new System.Windows.Forms.Button();
             this.btnBatalPoli = new System.Windows.Forms.Button();
             this.btnEditPoli = new System.Windows.Forms.Button();
             this.btnSimpanPoli = new System.Windows.Forms.Button();
+            this.dgvPoli = new System.Windows.Forms.DataGridView();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.btnCariPoli = new System.Windows.Forms.Button();
+            this.txtCariPoli = new System.Windows.Forms.TextBox();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.txtNamaPoli = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtIdPoli = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabSpesialisasi.SuspendLayout();
-            this.tabGolDarah.SuspendLayout();
-            this.tabPrioritas.SuspendLayout();
-            this.tabPoli.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvSpesial)).BeginInit();
             this.panel4.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvGol)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvSpesial)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.tabGolDarah.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPrio)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvGol)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.tabPrioritas.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPoli)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPrio)).BeginInit();
+            this.groupBox3.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.tabPoli.SuspendLayout();
             this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPoli)).BeginInit();
+            this.groupBox4.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -146,150 +146,9 @@
             this.tabSpesialisasi.Location = new System.Drawing.Point(4, 22);
             this.tabSpesialisasi.Name = "tabSpesialisasi";
             this.tabSpesialisasi.Padding = new System.Windows.Forms.Padding(3);
-            this.tabSpesialisasi.Size = new System.Drawing.Size(798, 380);
+            this.tabSpesialisasi.Size = new System.Drawing.Size(798, 381);
             this.tabSpesialisasi.TabIndex = 0;
             this.tabSpesialisasi.Text = "Spesialisasi";
-            // 
-            // tabGolDarah
-            // 
-            this.tabGolDarah.BackColor = System.Drawing.SystemColors.Control;
-            this.tabGolDarah.Controls.Add(this.panel2);
-            this.tabGolDarah.Controls.Add(this.dgvGol);
-            this.tabGolDarah.Controls.Add(this.groupBox2);
-            this.tabGolDarah.Controls.Add(this.panel1);
-            this.tabGolDarah.Location = new System.Drawing.Point(4, 22);
-            this.tabGolDarah.Name = "tabGolDarah";
-            this.tabGolDarah.Padding = new System.Windows.Forms.Padding(3);
-            this.tabGolDarah.Size = new System.Drawing.Size(798, 380);
-            this.tabGolDarah.TabIndex = 1;
-            this.tabGolDarah.Text = "Gol. Darah";
-            // 
-            // tabPrioritas
-            // 
-            this.tabPrioritas.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPrioritas.Controls.Add(this.panel6);
-            this.tabPrioritas.Controls.Add(this.dgvPrio);
-            this.tabPrioritas.Controls.Add(this.groupBox3);
-            this.tabPrioritas.Controls.Add(this.panel5);
-            this.tabPrioritas.Location = new System.Drawing.Point(4, 22);
-            this.tabPrioritas.Name = "tabPrioritas";
-            this.tabPrioritas.Size = new System.Drawing.Size(798, 381);
-            this.tabPrioritas.TabIndex = 2;
-            this.tabPrioritas.Text = "Prioritas";
-            // 
-            // tabPoli
-            // 
-            this.tabPoli.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPoli.Controls.Add(this.panel8);
-            this.tabPoli.Controls.Add(this.dgvPoli);
-            this.tabPoli.Controls.Add(this.groupBox4);
-            this.tabPoli.Controls.Add(this.panel7);
-            this.tabPoli.Location = new System.Drawing.Point(4, 22);
-            this.tabPoli.Name = "tabPoli";
-            this.tabPoli.Size = new System.Drawing.Size(798, 381);
-            this.tabPoli.TabIndex = 3;
-            this.tabPoli.Text = "Poli";
-            // 
-            // panel3
-            // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.txtKetSpesial);
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.txtKdSpesial);
-            this.panel3.Controls.Add(this.label1);
-            this.panel3.Controls.Add(this.txtIdSpesial);
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(3, 3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(792, 87);
-            this.panel3.TabIndex = 2;
-            // 
-            // txtKdSpesial
-            // 
-            this.txtKdSpesial.Location = new System.Drawing.Point(94, 29);
-            this.txtKdSpesial.Name = "txtKdSpesial";
-            this.txtKdSpesial.Size = new System.Drawing.Size(214, 20);
-            this.txtKdSpesial.TabIndex = 7;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(4, 32);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 13);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Kode Spesialisai";
-            // 
-            // txtIdSpesial
-            // 
-            this.txtIdSpesial.Location = new System.Drawing.Point(94, 3);
-            this.txtIdSpesial.Name = "txtIdSpesial";
-            this.txtIdSpesial.Size = new System.Drawing.Size(100, 20);
-            this.txtIdSpesial.TabIndex = 5;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(4, 6);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(18, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "ID";
-            // 
-            // txtKetSpesial
-            // 
-            this.txtKetSpesial.Location = new System.Drawing.Point(94, 55);
-            this.txtKetSpesial.Name = "txtKetSpesial";
-            this.txtKetSpesial.Size = new System.Drawing.Size(214, 20);
-            this.txtKetSpesial.TabIndex = 9;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(4, 58);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 13);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Keterangan";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.btnCariSpesial);
-            this.groupBox1.Controls.Add(this.txtCariSpesial);
-            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupBox1.Location = new System.Drawing.Point(3, 90);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(792, 53);
-            this.groupBox1.TabIndex = 6;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Pencarian Data";
-            // 
-            // btnCariSpesial
-            // 
-            this.btnCariSpesial.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnCariSpesial.Image = ((System.Drawing.Image)(resources.GetObject("btnCariSpesial.Image")));
-            this.btnCariSpesial.Location = new System.Drawing.Point(430, 10);
-            this.btnCariSpesial.Name = "btnCariSpesial";
-            this.btnCariSpesial.Size = new System.Drawing.Size(75, 36);
-            this.btnCariSpesial.TabIndex = 176;
-            this.btnCariSpesial.UseVisualStyleBackColor = true;
-            // 
-            // txtCariSpesial
-            // 
-            this.txtCariSpesial.Location = new System.Drawing.Point(8, 19);
-            this.txtCariSpesial.Name = "txtCariSpesial";
-            this.txtCariSpesial.Size = new System.Drawing.Size(416, 20);
-            this.txtCariSpesial.TabIndex = 176;
-            // 
-            // dgvSpesial
-            // 
-            this.dgvSpesial.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvSpesial.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgvSpesial.Location = new System.Drawing.Point(3, 143);
-            this.dgvSpesial.Name = "dgvSpesial";
-            this.dgvSpesial.Size = new System.Drawing.Size(792, 165);
-            this.dgvSpesial.TabIndex = 7;
             // 
             // panel4
             // 
@@ -300,7 +159,7 @@
             this.panel4.Controls.Add(this.btnEditSpesial);
             this.panel4.Controls.Add(this.btnSimpanSpesial);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(3, 320);
+            this.panel4.Location = new System.Drawing.Point(3, 321);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(792, 57);
             this.panel4.TabIndex = 8;
@@ -365,124 +224,120 @@
             this.btnSimpanSpesial.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSimpanSpesial.UseVisualStyleBackColor = true;
             // 
-            // panel1
+            // dgvSpesial
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.txtRhesus);
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.txtTypeGol);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.txtNmGol);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.txtIdGol);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(3, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(792, 107);
-            this.panel1.TabIndex = 3;
+            this.dgvSpesial.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvSpesial.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgvSpesial.Location = new System.Drawing.Point(3, 143);
+            this.dgvSpesial.Name = "dgvSpesial";
+            this.dgvSpesial.Size = new System.Drawing.Size(792, 165);
+            this.dgvSpesial.TabIndex = 7;
             // 
-            // txtTypeGol
+            // groupBox1
             // 
-            this.txtTypeGol.Location = new System.Drawing.Point(51, 55);
-            this.txtTypeGol.Name = "txtTypeGol";
-            this.txtTypeGol.Size = new System.Drawing.Size(214, 20);
-            this.txtTypeGol.TabIndex = 9;
+            this.groupBox1.Controls.Add(this.btnCariSpesial);
+            this.groupBox1.Controls.Add(this.txtCariSpesial);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox1.Location = new System.Drawing.Point(3, 90);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(792, 53);
+            this.groupBox1.TabIndex = 6;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Pencarian Data";
             // 
-            // label3
+            // btnCariSpesial
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(4, 58);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 13);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Type";
+            this.btnCariSpesial.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnCariSpesial.Image = ((System.Drawing.Image)(resources.GetObject("btnCariSpesial.Image")));
+            this.btnCariSpesial.Location = new System.Drawing.Point(430, 10);
+            this.btnCariSpesial.Name = "btnCariSpesial";
+            this.btnCariSpesial.Size = new System.Drawing.Size(75, 36);
+            this.btnCariSpesial.TabIndex = 176;
+            this.btnCariSpesial.UseVisualStyleBackColor = true;
             // 
-            // txtNmGol
+            // txtCariSpesial
             // 
-            this.txtNmGol.Location = new System.Drawing.Point(51, 29);
-            this.txtNmGol.Name = "txtNmGol";
-            this.txtNmGol.Size = new System.Drawing.Size(214, 20);
-            this.txtNmGol.TabIndex = 7;
+            this.txtCariSpesial.Location = new System.Drawing.Point(8, 19);
+            this.txtCariSpesial.Name = "txtCariSpesial";
+            this.txtCariSpesial.Size = new System.Drawing.Size(416, 20);
+            this.txtCariSpesial.TabIndex = 176;
             // 
-            // label5
+            // panel3
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(4, 32);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "Nama";
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.txtKetSpesial);
+            this.panel3.Controls.Add(this.label2);
+            this.panel3.Controls.Add(this.txtKdSpesial);
+            this.panel3.Controls.Add(this.label1);
+            this.panel3.Controls.Add(this.txtIdSpesial);
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(3, 3);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(792, 87);
+            this.panel3.TabIndex = 2;
             // 
-            // txtIdGol
+            // txtKetSpesial
             // 
-            this.txtIdGol.Location = new System.Drawing.Point(51, 3);
-            this.txtIdGol.Name = "txtIdGol";
-            this.txtIdGol.Size = new System.Drawing.Size(100, 20);
-            this.txtIdGol.TabIndex = 5;
+            this.txtKetSpesial.Location = new System.Drawing.Point(94, 55);
+            this.txtKetSpesial.Name = "txtKetSpesial";
+            this.txtKetSpesial.Size = new System.Drawing.Size(214, 20);
+            this.txtKetSpesial.TabIndex = 9;
             // 
-            // label6
+            // label2
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(4, 6);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(18, 13);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "ID";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(4, 58);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(62, 13);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Keterangan";
             // 
-            // txtRhesus
+            // txtKdSpesial
             // 
-            this.txtRhesus.Location = new System.Drawing.Point(51, 81);
-            this.txtRhesus.Name = "txtRhesus";
-            this.txtRhesus.Size = new System.Drawing.Size(214, 20);
-            this.txtRhesus.TabIndex = 11;
+            this.txtKdSpesial.Location = new System.Drawing.Point(94, 29);
+            this.txtKdSpesial.Name = "txtKdSpesial";
+            this.txtKdSpesial.Size = new System.Drawing.Size(214, 20);
+            this.txtKdSpesial.TabIndex = 7;
             // 
-            // label7
+            // label1
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(4, 84);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(43, 13);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "Rhesus";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(4, 32);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(84, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Kode Spesialisai";
             // 
-            // groupBox2
+            // txtIdSpesial
             // 
-            this.groupBox2.Controls.Add(this.btnCariGol);
-            this.groupBox2.Controls.Add(this.txtCariGol);
-            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupBox2.Location = new System.Drawing.Point(3, 110);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(792, 53);
-            this.groupBox2.TabIndex = 7;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Pencarian Data";
+            this.txtIdSpesial.Location = new System.Drawing.Point(94, 3);
+            this.txtIdSpesial.Name = "txtIdSpesial";
+            this.txtIdSpesial.Size = new System.Drawing.Size(100, 20);
+            this.txtIdSpesial.TabIndex = 5;
             // 
-            // btnCariGol
+            // label4
             // 
-            this.btnCariGol.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnCariGol.Image = ((System.Drawing.Image)(resources.GetObject("btnCariGol.Image")));
-            this.btnCariGol.Location = new System.Drawing.Point(430, 10);
-            this.btnCariGol.Name = "btnCariGol";
-            this.btnCariGol.Size = new System.Drawing.Size(75, 36);
-            this.btnCariGol.TabIndex = 176;
-            this.btnCariGol.UseVisualStyleBackColor = true;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(4, 6);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(18, 13);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "ID";
             // 
-            // txtCariGol
+            // tabGolDarah
             // 
-            this.txtCariGol.Location = new System.Drawing.Point(8, 19);
-            this.txtCariGol.Name = "txtCariGol";
-            this.txtCariGol.Size = new System.Drawing.Size(416, 20);
-            this.txtCariGol.TabIndex = 176;
-            // 
-            // dgvGol
-            // 
-            this.dgvGol.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvGol.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgvGol.Location = new System.Drawing.Point(3, 163);
-            this.dgvGol.Name = "dgvGol";
-            this.dgvGol.Size = new System.Drawing.Size(792, 165);
-            this.dgvGol.TabIndex = 8;
+            this.tabGolDarah.BackColor = System.Drawing.SystemColors.Control;
+            this.tabGolDarah.Controls.Add(this.panel2);
+            this.tabGolDarah.Controls.Add(this.dgvGol);
+            this.tabGolDarah.Controls.Add(this.groupBox2);
+            this.tabGolDarah.Controls.Add(this.panel1);
+            this.tabGolDarah.Location = new System.Drawing.Point(4, 22);
+            this.tabGolDarah.Name = "tabGolDarah";
+            this.tabGolDarah.Padding = new System.Windows.Forms.Padding(3);
+            this.tabGolDarah.Size = new System.Drawing.Size(798, 381);
+            this.tabGolDarah.TabIndex = 1;
+            this.tabGolDarah.Text = "Gol. Darah";
             // 
             // panel2
             // 
@@ -493,7 +348,7 @@
             this.panel2.Controls.Add(this.btnEditGol);
             this.panel2.Controls.Add(this.btnSimpanGol);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(3, 320);
+            this.panel2.Location = new System.Drawing.Point(3, 321);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(792, 57);
             this.panel2.TabIndex = 9;
@@ -558,88 +413,137 @@
             this.btnSimpanGol.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSimpanGol.UseVisualStyleBackColor = true;
             // 
-            // panel5
+            // dgvGol
             // 
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.txtNmPrio);
-            this.panel5.Controls.Add(this.label8);
-            this.panel5.Controls.Add(this.txtIdPrio);
-            this.panel5.Controls.Add(this.label9);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(798, 72);
-            this.panel5.TabIndex = 1;
+            this.dgvGol.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvGol.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgvGol.Location = new System.Drawing.Point(3, 163);
+            this.dgvGol.Name = "dgvGol";
+            this.dgvGol.Size = new System.Drawing.Size(792, 165);
+            this.dgvGol.TabIndex = 8;
             // 
-            // txtNmPrio
+            // groupBox2
             // 
-            this.txtNmPrio.Location = new System.Drawing.Point(91, 41);
-            this.txtNmPrio.Name = "txtNmPrio";
-            this.txtNmPrio.Size = new System.Drawing.Size(214, 20);
-            this.txtNmPrio.TabIndex = 7;
+            this.groupBox2.Controls.Add(this.btnCariGol);
+            this.groupBox2.Controls.Add(this.txtCariGol);
+            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox2.Location = new System.Drawing.Point(3, 110);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(792, 53);
+            this.groupBox2.TabIndex = 7;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Pencarian Data";
             // 
-            // label8
+            // btnCariGol
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(10, 44);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(75, 13);
-            this.label8.TabIndex = 6;
-            this.label8.Text = "Nama Prioritas";
+            this.btnCariGol.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnCariGol.Image = ((System.Drawing.Image)(resources.GetObject("btnCariGol.Image")));
+            this.btnCariGol.Location = new System.Drawing.Point(430, 10);
+            this.btnCariGol.Name = "btnCariGol";
+            this.btnCariGol.Size = new System.Drawing.Size(75, 36);
+            this.btnCariGol.TabIndex = 176;
+            this.btnCariGol.UseVisualStyleBackColor = true;
             // 
-            // txtIdPrio
+            // txtCariGol
             // 
-            this.txtIdPrio.Location = new System.Drawing.Point(91, 15);
-            this.txtIdPrio.Name = "txtIdPrio";
-            this.txtIdPrio.Size = new System.Drawing.Size(100, 20);
-            this.txtIdPrio.TabIndex = 5;
+            this.txtCariGol.Location = new System.Drawing.Point(8, 19);
+            this.txtCariGol.Name = "txtCariGol";
+            this.txtCariGol.Size = new System.Drawing.Size(416, 20);
+            this.txtCariGol.TabIndex = 176;
             // 
-            // label9
+            // panel1
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(10, 18);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(18, 13);
-            this.label9.TabIndex = 4;
-            this.label9.Text = "ID";
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.txtRhesus);
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.txtTypeGol);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.txtNmGol);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.txtIdGol);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(792, 107);
+            this.panel1.TabIndex = 3;
             // 
-            // groupBox3
+            // txtRhesus
             // 
-            this.groupBox3.Controls.Add(this.btnCariPrio);
-            this.groupBox3.Controls.Add(this.txtCariPrio);
-            this.groupBox3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupBox3.Location = new System.Drawing.Point(0, 72);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(798, 53);
-            this.groupBox3.TabIndex = 8;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Pencarian Data";
+            this.txtRhesus.Location = new System.Drawing.Point(51, 81);
+            this.txtRhesus.Name = "txtRhesus";
+            this.txtRhesus.Size = new System.Drawing.Size(214, 20);
+            this.txtRhesus.TabIndex = 11;
             // 
-            // btnCariPrio
+            // label7
             // 
-            this.btnCariPrio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnCariPrio.Image = ((System.Drawing.Image)(resources.GetObject("btnCariPrio.Image")));
-            this.btnCariPrio.Location = new System.Drawing.Point(430, 10);
-            this.btnCariPrio.Name = "btnCariPrio";
-            this.btnCariPrio.Size = new System.Drawing.Size(75, 36);
-            this.btnCariPrio.TabIndex = 176;
-            this.btnCariPrio.UseVisualStyleBackColor = true;
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(4, 84);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(43, 13);
+            this.label7.TabIndex = 10;
+            this.label7.Text = "Rhesus";
             // 
-            // txtCariPrio
+            // txtTypeGol
             // 
-            this.txtCariPrio.Location = new System.Drawing.Point(8, 19);
-            this.txtCariPrio.Name = "txtCariPrio";
-            this.txtCariPrio.Size = new System.Drawing.Size(416, 20);
-            this.txtCariPrio.TabIndex = 176;
+            this.txtTypeGol.Location = new System.Drawing.Point(51, 55);
+            this.txtTypeGol.Name = "txtTypeGol";
+            this.txtTypeGol.Size = new System.Drawing.Size(214, 20);
+            this.txtTypeGol.TabIndex = 9;
             // 
-            // dgvPrio
+            // label3
             // 
-            this.dgvPrio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPrio.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgvPrio.Location = new System.Drawing.Point(0, 125);
-            this.dgvPrio.Name = "dgvPrio";
-            this.dgvPrio.Size = new System.Drawing.Size(798, 201);
-            this.dgvPrio.TabIndex = 9;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(4, 58);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(31, 13);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Type";
+            // 
+            // txtNmGol
+            // 
+            this.txtNmGol.Location = new System.Drawing.Point(51, 29);
+            this.txtNmGol.Name = "txtNmGol";
+            this.txtNmGol.Size = new System.Drawing.Size(214, 20);
+            this.txtNmGol.TabIndex = 7;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(4, 32);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "Nama";
+            // 
+            // txtIdGol
+            // 
+            this.txtIdGol.Location = new System.Drawing.Point(51, 3);
+            this.txtIdGol.Name = "txtIdGol";
+            this.txtIdGol.Size = new System.Drawing.Size(100, 20);
+            this.txtIdGol.TabIndex = 5;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(4, 6);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(18, 13);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "ID";
+            // 
+            // tabPrioritas
+            // 
+            this.tabPrioritas.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPrioritas.Controls.Add(this.panel6);
+            this.tabPrioritas.Controls.Add(this.dgvPrio);
+            this.tabPrioritas.Controls.Add(this.groupBox3);
+            this.tabPrioritas.Controls.Add(this.panel5);
+            this.tabPrioritas.Location = new System.Drawing.Point(4, 22);
+            this.tabPrioritas.Name = "tabPrioritas";
+            this.tabPrioritas.Size = new System.Drawing.Size(798, 381);
+            this.tabPrioritas.TabIndex = 2;
+            this.tabPrioritas.Text = "Prioritas";
             // 
             // panel6
             // 
@@ -715,88 +619,101 @@
             this.btnSimpanPrio.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSimpanPrio.UseVisualStyleBackColor = true;
             // 
-            // panel7
+            // dgvPrio
             // 
-            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Controls.Add(this.txtNamaPoli);
-            this.panel7.Controls.Add(this.label10);
-            this.panel7.Controls.Add(this.txtIdPoli);
-            this.panel7.Controls.Add(this.label11);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(798, 70);
-            this.panel7.TabIndex = 1;
+            this.dgvPrio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPrio.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgvPrio.Location = new System.Drawing.Point(0, 125);
+            this.dgvPrio.Name = "dgvPrio";
+            this.dgvPrio.Size = new System.Drawing.Size(798, 201);
+            this.dgvPrio.TabIndex = 9;
             // 
-            // txtNamaPoli
+            // groupBox3
             // 
-            this.txtNamaPoli.Location = new System.Drawing.Point(98, 34);
-            this.txtNamaPoli.Name = "txtNamaPoli";
-            this.txtNamaPoli.Size = new System.Drawing.Size(214, 20);
-            this.txtNamaPoli.TabIndex = 7;
+            this.groupBox3.Controls.Add(this.btnCariPrio);
+            this.groupBox3.Controls.Add(this.txtCariPrio);
+            this.groupBox3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox3.Location = new System.Drawing.Point(0, 72);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(798, 53);
+            this.groupBox3.TabIndex = 8;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Pencarian Data";
             // 
-            // label10
+            // btnCariPrio
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(1, 37);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(55, 13);
-            this.label10.TabIndex = 6;
-            this.label10.Text = "Nama Poli";
+            this.btnCariPrio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnCariPrio.Image = ((System.Drawing.Image)(resources.GetObject("btnCariPrio.Image")));
+            this.btnCariPrio.Location = new System.Drawing.Point(430, 10);
+            this.btnCariPrio.Name = "btnCariPrio";
+            this.btnCariPrio.Size = new System.Drawing.Size(75, 36);
+            this.btnCariPrio.TabIndex = 176;
+            this.btnCariPrio.UseVisualStyleBackColor = true;
             // 
-            // txtIdPoli
+            // txtCariPrio
             // 
-            this.txtIdPoli.Location = new System.Drawing.Point(98, 8);
-            this.txtIdPoli.Name = "txtIdPoli";
-            this.txtIdPoli.Size = new System.Drawing.Size(100, 20);
-            this.txtIdPoli.TabIndex = 5;
+            this.txtCariPrio.Location = new System.Drawing.Point(8, 19);
+            this.txtCariPrio.Name = "txtCariPrio";
+            this.txtCariPrio.Size = new System.Drawing.Size(416, 20);
+            this.txtCariPrio.TabIndex = 176;
             // 
-            // label11
+            // panel5
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(1, 11);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(18, 13);
-            this.label11.TabIndex = 4;
-            this.label11.Text = "ID";
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.txtNmPrio);
+            this.panel5.Controls.Add(this.label8);
+            this.panel5.Controls.Add(this.txtIdPrio);
+            this.panel5.Controls.Add(this.label9);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(798, 72);
+            this.panel5.TabIndex = 1;
             // 
-            // groupBox4
+            // txtNmPrio
             // 
-            this.groupBox4.Controls.Add(this.btnCariPoli);
-            this.groupBox4.Controls.Add(this.txtCariPoli);
-            this.groupBox4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupBox4.Location = new System.Drawing.Point(0, 70);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(798, 53);
-            this.groupBox4.TabIndex = 5;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Pencarian Data";
+            this.txtNmPrio.Location = new System.Drawing.Point(91, 41);
+            this.txtNmPrio.Name = "txtNmPrio";
+            this.txtNmPrio.Size = new System.Drawing.Size(214, 20);
+            this.txtNmPrio.TabIndex = 7;
             // 
-            // btnCariPoli
+            // label8
             // 
-            this.btnCariPoli.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnCariPoli.Image = ((System.Drawing.Image)(resources.GetObject("btnCariPoli.Image")));
-            this.btnCariPoli.Location = new System.Drawing.Point(430, 10);
-            this.btnCariPoli.Name = "btnCariPoli";
-            this.btnCariPoli.Size = new System.Drawing.Size(75, 36);
-            this.btnCariPoli.TabIndex = 176;
-            this.btnCariPoli.UseVisualStyleBackColor = true;
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(10, 44);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(75, 13);
+            this.label8.TabIndex = 6;
+            this.label8.Text = "Nama Prioritas";
             // 
-            // txtCariPoli
+            // txtIdPrio
             // 
-            this.txtCariPoli.Location = new System.Drawing.Point(8, 19);
-            this.txtCariPoli.Name = "txtCariPoli";
-            this.txtCariPoli.Size = new System.Drawing.Size(416, 20);
-            this.txtCariPoli.TabIndex = 176;
+            this.txtIdPrio.Location = new System.Drawing.Point(91, 15);
+            this.txtIdPrio.Name = "txtIdPrio";
+            this.txtIdPrio.Size = new System.Drawing.Size(100, 20);
+            this.txtIdPrio.TabIndex = 5;
             // 
-            // dgvPoli
+            // label9
             // 
-            this.dgvPoli.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPoli.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgvPoli.Location = new System.Drawing.Point(0, 123);
-            this.dgvPoli.Name = "dgvPoli";
-            this.dgvPoli.Size = new System.Drawing.Size(798, 201);
-            this.dgvPoli.TabIndex = 6;
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(10, 18);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(18, 13);
+            this.label9.TabIndex = 4;
+            this.label9.Text = "ID";
+            // 
+            // tabPoli
+            // 
+            this.tabPoli.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPoli.Controls.Add(this.panel8);
+            this.tabPoli.Controls.Add(this.dgvPoli);
+            this.tabPoli.Controls.Add(this.groupBox4);
+            this.tabPoli.Controls.Add(this.panel7);
+            this.tabPoli.Location = new System.Drawing.Point(4, 22);
+            this.tabPoli.Name = "tabPoli";
+            this.tabPoli.Size = new System.Drawing.Size(798, 381);
+            this.tabPoli.TabIndex = 3;
+            this.tabPoli.Text = "Poli";
             // 
             // panel8
             // 
@@ -872,6 +789,89 @@
             this.btnSimpanPoli.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSimpanPoli.UseVisualStyleBackColor = true;
             // 
+            // dgvPoli
+            // 
+            this.dgvPoli.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPoli.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgvPoli.Location = new System.Drawing.Point(0, 123);
+            this.dgvPoli.Name = "dgvPoli";
+            this.dgvPoli.Size = new System.Drawing.Size(798, 201);
+            this.dgvPoli.TabIndex = 6;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.btnCariPoli);
+            this.groupBox4.Controls.Add(this.txtCariPoli);
+            this.groupBox4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox4.Location = new System.Drawing.Point(0, 70);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(798, 53);
+            this.groupBox4.TabIndex = 5;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Pencarian Data";
+            // 
+            // btnCariPoli
+            // 
+            this.btnCariPoli.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnCariPoli.Image = ((System.Drawing.Image)(resources.GetObject("btnCariPoli.Image")));
+            this.btnCariPoli.Location = new System.Drawing.Point(430, 10);
+            this.btnCariPoli.Name = "btnCariPoli";
+            this.btnCariPoli.Size = new System.Drawing.Size(75, 36);
+            this.btnCariPoli.TabIndex = 176;
+            this.btnCariPoli.UseVisualStyleBackColor = true;
+            // 
+            // txtCariPoli
+            // 
+            this.txtCariPoli.Location = new System.Drawing.Point(8, 19);
+            this.txtCariPoli.Name = "txtCariPoli";
+            this.txtCariPoli.Size = new System.Drawing.Size(416, 20);
+            this.txtCariPoli.TabIndex = 176;
+            // 
+            // panel7
+            // 
+            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel7.Controls.Add(this.txtNamaPoli);
+            this.panel7.Controls.Add(this.label10);
+            this.panel7.Controls.Add(this.txtIdPoli);
+            this.panel7.Controls.Add(this.label11);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(798, 70);
+            this.panel7.TabIndex = 1;
+            // 
+            // txtNamaPoli
+            // 
+            this.txtNamaPoli.Location = new System.Drawing.Point(98, 34);
+            this.txtNamaPoli.Name = "txtNamaPoli";
+            this.txtNamaPoli.Size = new System.Drawing.Size(214, 20);
+            this.txtNamaPoli.TabIndex = 7;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(1, 37);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(55, 13);
+            this.label10.TabIndex = 6;
+            this.label10.Text = "Nama Poli";
+            // 
+            // txtIdPoli
+            // 
+            this.txtIdPoli.Location = new System.Drawing.Point(98, 8);
+            this.txtIdPoli.Name = "txtIdPoli";
+            this.txtIdPoli.Size = new System.Drawing.Size(100, 20);
+            this.txtIdPoli.TabIndex = 5;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(1, 11);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(18, 13);
+            this.label11.TabIndex = 4;
+            this.label11.Text = "ID";
+            // 
             // FrmPengaturanMedis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -884,36 +884,36 @@
             this.MinimizeBox = false;
             this.Name = "FrmPengaturanMedis";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmPengaturanMedis";
+            this.Text = "Pengaturan Medis";
             this.tabControl1.ResumeLayout(false);
             this.tabSpesialisasi.ResumeLayout(false);
-            this.tabGolDarah.ResumeLayout(false);
-            this.tabPrioritas.ResumeLayout(false);
-            this.tabPoli.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvSpesial)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvSpesial)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.tabGolDarah.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvGol)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvGol)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.tabPrioritas.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPrio)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPrio)).EndInit();
-            this.panel6.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.tabPoli.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPoli)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPoli)).EndInit();
-            this.panel8.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.ResumeLayout(false);
 
         }
