@@ -62,6 +62,22 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtIdBagian = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.tabPendidikan = new System.Windows.Forms.TabPage();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.txtPendidikan = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtIdPendidikan = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnCariPendidikan = new System.Windows.Forms.Button();
+            this.txtCariPendidikan = new System.Windows.Forms.TextBox();
+            this.dgvPendidikan = new System.Windows.Forms.DataGridView();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.btnKeluarPendidikan = new System.Windows.Forms.Button();
+            this.btnHapusPendidikan = new System.Windows.Forms.Button();
+            this.btnBatalPendidikan = new System.Windows.Forms.Button();
+            this.btnEditPendidikan = new System.Windows.Forms.Button();
+            this.btnSimpanPendidikan = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPekerjaan.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -73,12 +89,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvBagian)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.tabPendidikan.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPendidikan)).BeginInit();
+            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPekerjaan);
             this.tabControl1.Controls.Add(this.tabBagian);
+            this.tabControl1.Controls.Add(this.tabPendidikan);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
@@ -428,6 +450,176 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "ID";
             // 
+            // tabPendidikan
+            // 
+            this.tabPendidikan.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPendidikan.Controls.Add(this.panel6);
+            this.tabPendidikan.Controls.Add(this.dgvPendidikan);
+            this.tabPendidikan.Controls.Add(this.groupBox3);
+            this.tabPendidikan.Controls.Add(this.panel5);
+            this.tabPendidikan.Location = new System.Drawing.Point(4, 22);
+            this.tabPendidikan.Name = "tabPendidikan";
+            this.tabPendidikan.Size = new System.Drawing.Size(518, 350);
+            this.tabPendidikan.TabIndex = 2;
+            this.tabPendidikan.Text = "Pendidikan";
+            // 
+            // panel5
+            // 
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.txtPendidikan);
+            this.panel5.Controls.Add(this.label5);
+            this.panel5.Controls.Add(this.txtIdPendidikan);
+            this.panel5.Controls.Add(this.label6);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(518, 70);
+            this.panel5.TabIndex = 2;
+            // 
+            // txtPendidikan
+            // 
+            this.txtPendidikan.Location = new System.Drawing.Point(67, 34);
+            this.txtPendidikan.Name = "txtPendidikan";
+            this.txtPendidikan.Size = new System.Drawing.Size(214, 20);
+            this.txtPendidikan.TabIndex = 7;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(1, 37);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(60, 13);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "Pendidikan";
+            // 
+            // txtIdPendidikan
+            // 
+            this.txtIdPendidikan.Location = new System.Drawing.Point(67, 8);
+            this.txtIdPendidikan.Name = "txtIdPendidikan";
+            this.txtIdPendidikan.Size = new System.Drawing.Size(100, 20);
+            this.txtIdPendidikan.TabIndex = 5;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(1, 11);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(18, 13);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "ID";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.btnCariPendidikan);
+            this.groupBox3.Controls.Add(this.txtCariPendidikan);
+            this.groupBox3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox3.Location = new System.Drawing.Point(0, 70);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(518, 53);
+            this.groupBox3.TabIndex = 6;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Pencarian Data";
+            // 
+            // btnCariPendidikan
+            // 
+            this.btnCariPendidikan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnCariPendidikan.Image = ((System.Drawing.Image)(resources.GetObject("btnCariPendidikan.Image")));
+            this.btnCariPendidikan.Location = new System.Drawing.Point(319, 10);
+            this.btnCariPendidikan.Name = "btnCariPendidikan";
+            this.btnCariPendidikan.Size = new System.Drawing.Size(75, 36);
+            this.btnCariPendidikan.TabIndex = 176;
+            this.btnCariPendidikan.UseVisualStyleBackColor = true;
+            // 
+            // txtCariPendidikan
+            // 
+            this.txtCariPendidikan.Location = new System.Drawing.Point(8, 19);
+            this.txtCariPendidikan.Name = "txtCariPendidikan";
+            this.txtCariPendidikan.Size = new System.Drawing.Size(305, 20);
+            this.txtCariPendidikan.TabIndex = 176;
+            // 
+            // dgvPendidikan
+            // 
+            this.dgvPendidikan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPendidikan.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgvPendidikan.Location = new System.Drawing.Point(0, 123);
+            this.dgvPendidikan.Name = "dgvPendidikan";
+            this.dgvPendidikan.Size = new System.Drawing.Size(518, 165);
+            this.dgvPendidikan.TabIndex = 7;
+            // 
+            // panel6
+            // 
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Controls.Add(this.btnKeluarPendidikan);
+            this.panel6.Controls.Add(this.btnHapusPendidikan);
+            this.panel6.Controls.Add(this.btnBatalPendidikan);
+            this.panel6.Controls.Add(this.btnEditPendidikan);
+            this.panel6.Controls.Add(this.btnSimpanPendidikan);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel6.Location = new System.Drawing.Point(0, 293);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(518, 57);
+            this.panel6.TabIndex = 8;
+            // 
+            // btnKeluarPendidikan
+            // 
+            this.btnKeluarPendidikan.Image = ((System.Drawing.Image)(resources.GetObject("btnKeluarPendidikan.Image")));
+            this.btnKeluarPendidikan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKeluarPendidikan.Location = new System.Drawing.Point(386, 5);
+            this.btnKeluarPendidikan.Name = "btnKeluarPendidikan";
+            this.btnKeluarPendidikan.Size = new System.Drawing.Size(87, 39);
+            this.btnKeluarPendidikan.TabIndex = 4;
+            this.btnKeluarPendidikan.Text = "Keluar";
+            this.btnKeluarPendidikan.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnKeluarPendidikan.UseVisualStyleBackColor = true;
+            // 
+            // btnHapusPendidikan
+            // 
+            this.btnHapusPendidikan.Image = ((System.Drawing.Image)(resources.GetObject("btnHapusPendidikan.Image")));
+            this.btnHapusPendidikan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHapusPendidikan.Location = new System.Drawing.Point(293, 5);
+            this.btnHapusPendidikan.Name = "btnHapusPendidikan";
+            this.btnHapusPendidikan.Size = new System.Drawing.Size(87, 39);
+            this.btnHapusPendidikan.TabIndex = 3;
+            this.btnHapusPendidikan.Text = "Hapus";
+            this.btnHapusPendidikan.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnHapusPendidikan.UseVisualStyleBackColor = true;
+            // 
+            // btnBatalPendidikan
+            // 
+            this.btnBatalPendidikan.Image = ((System.Drawing.Image)(resources.GetObject("btnBatalPendidikan.Image")));
+            this.btnBatalPendidikan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBatalPendidikan.Location = new System.Drawing.Point(200, 5);
+            this.btnBatalPendidikan.Name = "btnBatalPendidikan";
+            this.btnBatalPendidikan.Size = new System.Drawing.Size(87, 39);
+            this.btnBatalPendidikan.TabIndex = 2;
+            this.btnBatalPendidikan.Text = "Batal";
+            this.btnBatalPendidikan.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnBatalPendidikan.UseVisualStyleBackColor = true;
+            // 
+            // btnEditPendidikan
+            // 
+            this.btnEditPendidikan.Image = ((System.Drawing.Image)(resources.GetObject("btnEditPendidikan.Image")));
+            this.btnEditPendidikan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEditPendidikan.Location = new System.Drawing.Point(107, 5);
+            this.btnEditPendidikan.Name = "btnEditPendidikan";
+            this.btnEditPendidikan.Size = new System.Drawing.Size(87, 39);
+            this.btnEditPendidikan.TabIndex = 1;
+            this.btnEditPendidikan.Text = "Edit";
+            this.btnEditPendidikan.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnEditPendidikan.UseVisualStyleBackColor = true;
+            // 
+            // btnSimpanPendidikan
+            // 
+            this.btnSimpanPendidikan.Image = ((System.Drawing.Image)(resources.GetObject("btnSimpanPendidikan.Image")));
+            this.btnSimpanPendidikan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSimpanPendidikan.Location = new System.Drawing.Point(14, 5);
+            this.btnSimpanPendidikan.Name = "btnSimpanPendidikan";
+            this.btnSimpanPendidikan.Size = new System.Drawing.Size(87, 39);
+            this.btnSimpanPendidikan.TabIndex = 0;
+            this.btnSimpanPendidikan.Text = "Simpan";
+            this.btnSimpanPendidikan.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSimpanPendidikan.UseVisualStyleBackColor = true;
+            // 
             // FrmUtilities
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -456,6 +648,13 @@
             this.groupBox1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.tabPendidikan.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPendidikan)).EndInit();
+            this.panel6.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -495,5 +694,21 @@
         private System.Windows.Forms.Button btnBatalBagian;
         private System.Windows.Forms.Button btnEditBagian;
         private System.Windows.Forms.Button btnSimpanBagian;
+        private System.Windows.Forms.TabPage tabPendidikan;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Button btnKeluarPendidikan;
+        private System.Windows.Forms.Button btnHapusPendidikan;
+        private System.Windows.Forms.Button btnBatalPendidikan;
+        private System.Windows.Forms.Button btnEditPendidikan;
+        private System.Windows.Forms.Button btnSimpanPendidikan;
+        private System.Windows.Forms.DataGridView dgvPendidikan;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Button btnCariPendidikan;
+        internal System.Windows.Forms.TextBox txtCariPendidikan;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.TextBox txtPendidikan;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtIdPendidikan;
+        private System.Windows.Forms.Label label6;
     }
 }
