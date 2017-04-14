@@ -104,6 +104,16 @@
       <Name>Lab-Beta.Models</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image\1491771679_lab.ico" />
+    <Content Include="Image\Cancel_icon-icons.com_73703.png" />
+    <Content Include="Image\edit.png" />
+    <Content Include="Image\exit-icon-4602.png" />
+    <Content Include="Image\ic_delete_128_28267.png" />
+    <Content Include="Image\save.png" />
+    <Content Include="Image\search.png" />
+    <Content Include="Image\Text-Edit.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
