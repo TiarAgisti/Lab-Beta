@@ -84,21 +84,21 @@
             this.label8 = new System.Windows.Forms.Label();
             this.txtIdPrio = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.tabPoli = new System.Windows.Forms.TabPage();
+            this.tabBagian = new System.Windows.Forms.TabPage();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.btnKeluarPoli = new System.Windows.Forms.Button();
-            this.btnHapusPoli = new System.Windows.Forms.Button();
-            this.btnBatalPoli = new System.Windows.Forms.Button();
-            this.btnEditPoli = new System.Windows.Forms.Button();
-            this.btnSimpanPoli = new System.Windows.Forms.Button();
-            this.dgvPoli = new System.Windows.Forms.DataGridView();
+            this.btnKeluarBag = new System.Windows.Forms.Button();
+            this.btnHapusBag = new System.Windows.Forms.Button();
+            this.btnBatalBag = new System.Windows.Forms.Button();
+            this.btnEditBag = new System.Windows.Forms.Button();
+            this.btnSimpanBag = new System.Windows.Forms.Button();
+            this.dgvBag = new System.Windows.Forms.DataGridView();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.btnCariPoli = new System.Windows.Forms.Button();
-            this.txtCariPoli = new System.Windows.Forms.TextBox();
+            this.btnCariBag = new System.Windows.Forms.Button();
+            this.txtCariBag = new System.Windows.Forms.TextBox();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.txtNamaPoli = new System.Windows.Forms.TextBox();
+            this.txtNamaBag = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.txtIdPoli = new System.Windows.Forms.TextBox();
+            this.txtIdBag = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabSpesialisasi.SuspendLayout();
@@ -116,9 +116,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvPrio)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.panel5.SuspendLayout();
-            this.tabPoli.SuspendLayout();
+            this.tabBagian.SuspendLayout();
             this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPoli)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvBag)).BeginInit();
             this.groupBox4.SuspendLayout();
             this.panel7.SuspendLayout();
             this.SuspendLayout();
@@ -128,7 +128,7 @@
             this.tabControl1.Controls.Add(this.tabSpesialisasi);
             this.tabControl1.Controls.Add(this.tabGolDarah);
             this.tabControl1.Controls.Add(this.tabPrioritas);
-            this.tabControl1.Controls.Add(this.tabPoli);
+            this.tabControl1.Controls.Add(this.tabBagian);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
@@ -702,106 +702,106 @@
             this.label9.TabIndex = 4;
             this.label9.Text = "ID";
             // 
-            // tabPoli
+            // tabBagian
             // 
-            this.tabPoli.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPoli.Controls.Add(this.panel8);
-            this.tabPoli.Controls.Add(this.dgvPoli);
-            this.tabPoli.Controls.Add(this.groupBox4);
-            this.tabPoli.Controls.Add(this.panel7);
-            this.tabPoli.Location = new System.Drawing.Point(4, 22);
-            this.tabPoli.Name = "tabPoli";
-            this.tabPoli.Size = new System.Drawing.Size(798, 381);
-            this.tabPoli.TabIndex = 3;
-            this.tabPoli.Text = "Poli";
+            this.tabBagian.BackColor = System.Drawing.SystemColors.Control;
+            this.tabBagian.Controls.Add(this.panel8);
+            this.tabBagian.Controls.Add(this.dgvBag);
+            this.tabBagian.Controls.Add(this.groupBox4);
+            this.tabBagian.Controls.Add(this.panel7);
+            this.tabBagian.Location = new System.Drawing.Point(4, 22);
+            this.tabBagian.Name = "tabBagian";
+            this.tabBagian.Size = new System.Drawing.Size(798, 381);
+            this.tabBagian.TabIndex = 3;
+            this.tabBagian.Text = "Bagian";
             // 
             // panel8
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel8.Controls.Add(this.btnKeluarPoli);
-            this.panel8.Controls.Add(this.btnHapusPoli);
-            this.panel8.Controls.Add(this.btnBatalPoli);
-            this.panel8.Controls.Add(this.btnEditPoli);
-            this.panel8.Controls.Add(this.btnSimpanPoli);
+            this.panel8.Controls.Add(this.btnKeluarBag);
+            this.panel8.Controls.Add(this.btnHapusBag);
+            this.panel8.Controls.Add(this.btnBatalBag);
+            this.panel8.Controls.Add(this.btnEditBag);
+            this.panel8.Controls.Add(this.btnSimpanBag);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel8.Location = new System.Drawing.Point(0, 324);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(798, 57);
             this.panel8.TabIndex = 7;
             // 
-            // btnKeluarPoli
+            // btnKeluarBag
             // 
-            this.btnKeluarPoli.Image = ((System.Drawing.Image)(resources.GetObject("btnKeluarPoli.Image")));
-            this.btnKeluarPoli.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnKeluarPoli.Location = new System.Drawing.Point(386, 5);
-            this.btnKeluarPoli.Name = "btnKeluarPoli";
-            this.btnKeluarPoli.Size = new System.Drawing.Size(87, 39);
-            this.btnKeluarPoli.TabIndex = 4;
-            this.btnKeluarPoli.Text = "Keluar";
-            this.btnKeluarPoli.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnKeluarPoli.UseVisualStyleBackColor = true;
+            this.btnKeluarBag.Image = ((System.Drawing.Image)(resources.GetObject("btnKeluarBag.Image")));
+            this.btnKeluarBag.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKeluarBag.Location = new System.Drawing.Point(386, 5);
+            this.btnKeluarBag.Name = "btnKeluarBag";
+            this.btnKeluarBag.Size = new System.Drawing.Size(87, 39);
+            this.btnKeluarBag.TabIndex = 4;
+            this.btnKeluarBag.Text = "Keluar";
+            this.btnKeluarBag.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnKeluarBag.UseVisualStyleBackColor = true;
             // 
-            // btnHapusPoli
+            // btnHapusBag
             // 
-            this.btnHapusPoli.Image = ((System.Drawing.Image)(resources.GetObject("btnHapusPoli.Image")));
-            this.btnHapusPoli.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHapusPoli.Location = new System.Drawing.Point(293, 5);
-            this.btnHapusPoli.Name = "btnHapusPoli";
-            this.btnHapusPoli.Size = new System.Drawing.Size(87, 39);
-            this.btnHapusPoli.TabIndex = 3;
-            this.btnHapusPoli.Text = "Hapus";
-            this.btnHapusPoli.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnHapusPoli.UseVisualStyleBackColor = true;
+            this.btnHapusBag.Image = ((System.Drawing.Image)(resources.GetObject("btnHapusBag.Image")));
+            this.btnHapusBag.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHapusBag.Location = new System.Drawing.Point(293, 5);
+            this.btnHapusBag.Name = "btnHapusBag";
+            this.btnHapusBag.Size = new System.Drawing.Size(87, 39);
+            this.btnHapusBag.TabIndex = 3;
+            this.btnHapusBag.Text = "Hapus";
+            this.btnHapusBag.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnHapusBag.UseVisualStyleBackColor = true;
             // 
-            // btnBatalPoli
+            // btnBatalBag
             // 
-            this.btnBatalPoli.Image = ((System.Drawing.Image)(resources.GetObject("btnBatalPoli.Image")));
-            this.btnBatalPoli.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBatalPoli.Location = new System.Drawing.Point(200, 5);
-            this.btnBatalPoli.Name = "btnBatalPoli";
-            this.btnBatalPoli.Size = new System.Drawing.Size(87, 39);
-            this.btnBatalPoli.TabIndex = 2;
-            this.btnBatalPoli.Text = "Batal";
-            this.btnBatalPoli.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnBatalPoli.UseVisualStyleBackColor = true;
+            this.btnBatalBag.Image = ((System.Drawing.Image)(resources.GetObject("btnBatalBag.Image")));
+            this.btnBatalBag.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBatalBag.Location = new System.Drawing.Point(200, 5);
+            this.btnBatalBag.Name = "btnBatalBag";
+            this.btnBatalBag.Size = new System.Drawing.Size(87, 39);
+            this.btnBatalBag.TabIndex = 2;
+            this.btnBatalBag.Text = "Batal";
+            this.btnBatalBag.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnBatalBag.UseVisualStyleBackColor = true;
             // 
-            // btnEditPoli
+            // btnEditBag
             // 
-            this.btnEditPoli.Image = ((System.Drawing.Image)(resources.GetObject("btnEditPoli.Image")));
-            this.btnEditPoli.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEditPoli.Location = new System.Drawing.Point(107, 5);
-            this.btnEditPoli.Name = "btnEditPoli";
-            this.btnEditPoli.Size = new System.Drawing.Size(87, 39);
-            this.btnEditPoli.TabIndex = 1;
-            this.btnEditPoli.Text = "Edit";
-            this.btnEditPoli.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnEditPoli.UseVisualStyleBackColor = true;
+            this.btnEditBag.Image = ((System.Drawing.Image)(resources.GetObject("btnEditBag.Image")));
+            this.btnEditBag.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEditBag.Location = new System.Drawing.Point(107, 5);
+            this.btnEditBag.Name = "btnEditBag";
+            this.btnEditBag.Size = new System.Drawing.Size(87, 39);
+            this.btnEditBag.TabIndex = 1;
+            this.btnEditBag.Text = "Edit";
+            this.btnEditBag.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnEditBag.UseVisualStyleBackColor = true;
             // 
-            // btnSimpanPoli
+            // btnSimpanBag
             // 
-            this.btnSimpanPoli.Image = ((System.Drawing.Image)(resources.GetObject("btnSimpanPoli.Image")));
-            this.btnSimpanPoli.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSimpanPoli.Location = new System.Drawing.Point(14, 5);
-            this.btnSimpanPoli.Name = "btnSimpanPoli";
-            this.btnSimpanPoli.Size = new System.Drawing.Size(87, 39);
-            this.btnSimpanPoli.TabIndex = 0;
-            this.btnSimpanPoli.Text = "Simpan";
-            this.btnSimpanPoli.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSimpanPoli.UseVisualStyleBackColor = true;
+            this.btnSimpanBag.Image = ((System.Drawing.Image)(resources.GetObject("btnSimpanBag.Image")));
+            this.btnSimpanBag.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSimpanBag.Location = new System.Drawing.Point(14, 5);
+            this.btnSimpanBag.Name = "btnSimpanBag";
+            this.btnSimpanBag.Size = new System.Drawing.Size(87, 39);
+            this.btnSimpanBag.TabIndex = 0;
+            this.btnSimpanBag.Text = "Simpan";
+            this.btnSimpanBag.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSimpanBag.UseVisualStyleBackColor = true;
             // 
-            // dgvPoli
+            // dgvBag
             // 
-            this.dgvPoli.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPoli.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgvPoli.Location = new System.Drawing.Point(0, 123);
-            this.dgvPoli.Name = "dgvPoli";
-            this.dgvPoli.Size = new System.Drawing.Size(798, 201);
-            this.dgvPoli.TabIndex = 6;
+            this.dgvBag.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvBag.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgvBag.Location = new System.Drawing.Point(0, 123);
+            this.dgvBag.Name = "dgvBag";
+            this.dgvBag.Size = new System.Drawing.Size(798, 201);
+            this.dgvBag.TabIndex = 6;
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.btnCariPoli);
-            this.groupBox4.Controls.Add(this.txtCariPoli);
+            this.groupBox4.Controls.Add(this.btnCariBag);
+            this.groupBox4.Controls.Add(this.txtCariBag);
             this.groupBox4.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox4.Location = new System.Drawing.Point(0, 70);
             this.groupBox4.Name = "groupBox4";
@@ -810,29 +810,29 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Pencarian Data";
             // 
-            // btnCariPoli
+            // btnCariBag
             // 
-            this.btnCariPoli.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnCariPoli.Image = ((System.Drawing.Image)(resources.GetObject("btnCariPoli.Image")));
-            this.btnCariPoli.Location = new System.Drawing.Point(430, 10);
-            this.btnCariPoli.Name = "btnCariPoli";
-            this.btnCariPoli.Size = new System.Drawing.Size(75, 36);
-            this.btnCariPoli.TabIndex = 176;
-            this.btnCariPoli.UseVisualStyleBackColor = true;
+            this.btnCariBag.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnCariBag.Image = ((System.Drawing.Image)(resources.GetObject("btnCariBag.Image")));
+            this.btnCariBag.Location = new System.Drawing.Point(430, 10);
+            this.btnCariBag.Name = "btnCariBag";
+            this.btnCariBag.Size = new System.Drawing.Size(75, 36);
+            this.btnCariBag.TabIndex = 176;
+            this.btnCariBag.UseVisualStyleBackColor = true;
             // 
-            // txtCariPoli
+            // txtCariBag
             // 
-            this.txtCariPoli.Location = new System.Drawing.Point(8, 19);
-            this.txtCariPoli.Name = "txtCariPoli";
-            this.txtCariPoli.Size = new System.Drawing.Size(416, 20);
-            this.txtCariPoli.TabIndex = 176;
+            this.txtCariBag.Location = new System.Drawing.Point(8, 19);
+            this.txtCariBag.Name = "txtCariBag";
+            this.txtCariBag.Size = new System.Drawing.Size(416, 20);
+            this.txtCariBag.TabIndex = 176;
             // 
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Controls.Add(this.txtNamaPoli);
+            this.panel7.Controls.Add(this.txtNamaBag);
             this.panel7.Controls.Add(this.label10);
-            this.panel7.Controls.Add(this.txtIdPoli);
+            this.panel7.Controls.Add(this.txtIdBag);
             this.panel7.Controls.Add(this.label11);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel7.Location = new System.Drawing.Point(0, 0);
@@ -840,28 +840,28 @@
             this.panel7.Size = new System.Drawing.Size(798, 70);
             this.panel7.TabIndex = 1;
             // 
-            // txtNamaPoli
+            // txtNamaBag
             // 
-            this.txtNamaPoli.Location = new System.Drawing.Point(98, 34);
-            this.txtNamaPoli.Name = "txtNamaPoli";
-            this.txtNamaPoli.Size = new System.Drawing.Size(214, 20);
-            this.txtNamaPoli.TabIndex = 7;
+            this.txtNamaBag.Location = new System.Drawing.Point(98, 34);
+            this.txtNamaBag.Name = "txtNamaBag";
+            this.txtNamaBag.Size = new System.Drawing.Size(214, 20);
+            this.txtNamaBag.TabIndex = 7;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(1, 37);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(55, 13);
+            this.label10.Size = new System.Drawing.Size(71, 13);
             this.label10.TabIndex = 6;
-            this.label10.Text = "Nama Poli";
+            this.label10.Text = "Nama Bagian";
             // 
-            // txtIdPoli
+            // txtIdBag
             // 
-            this.txtIdPoli.Location = new System.Drawing.Point(98, 8);
-            this.txtIdPoli.Name = "txtIdPoli";
-            this.txtIdPoli.Size = new System.Drawing.Size(100, 20);
-            this.txtIdPoli.TabIndex = 5;
+            this.txtIdBag.Location = new System.Drawing.Point(98, 8);
+            this.txtIdBag.Name = "txtIdBag";
+            this.txtIdBag.Size = new System.Drawing.Size(100, 20);
+            this.txtIdBag.TabIndex = 5;
             // 
             // label11
             // 
@@ -907,9 +907,9 @@
             this.groupBox3.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            this.tabPoli.ResumeLayout(false);
+            this.tabBagian.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPoli)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvBag)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.panel7.ResumeLayout(false);
@@ -924,7 +924,7 @@
         private System.Windows.Forms.TabPage tabSpesialisasi;
         private System.Windows.Forms.TabPage tabGolDarah;
         private System.Windows.Forms.TabPage tabPrioritas;
-        private System.Windows.Forms.TabPage tabPoli;
+        private System.Windows.Forms.TabPage tabBagian;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TextBox txtKdSpesial;
         private System.Windows.Forms.Label label1;
@@ -977,19 +977,19 @@
         private System.Windows.Forms.Button btnEditPrio;
         private System.Windows.Forms.Button btnSimpanPrio;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.TextBox txtNamaPoli;
+        private System.Windows.Forms.TextBox txtNamaBag;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox txtIdPoli;
+        private System.Windows.Forms.TextBox txtIdBag;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Button btnCariPoli;
-        internal System.Windows.Forms.TextBox txtCariPoli;
-        private System.Windows.Forms.DataGridView dgvPoli;
+        private System.Windows.Forms.Button btnCariBag;
+        internal System.Windows.Forms.TextBox txtCariBag;
+        private System.Windows.Forms.DataGridView dgvBag;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Button btnKeluarPoli;
-        private System.Windows.Forms.Button btnHapusPoli;
-        private System.Windows.Forms.Button btnBatalPoli;
-        private System.Windows.Forms.Button btnEditPoli;
-        private System.Windows.Forms.Button btnSimpanPoli;
+        private System.Windows.Forms.Button btnKeluarBag;
+        private System.Windows.Forms.Button btnHapusBag;
+        private System.Windows.Forms.Button btnBatalBag;
+        private System.Windows.Forms.Button btnEditBag;
+        private System.Windows.Forms.Button btnSimpanBag;
     }
 }

@@ -616,7 +616,7 @@
         /64NG/4AMrIpM160kK8AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btnKeluarPoli.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnKeluarBag.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         xAAADsQBlSsOGwAACDBJREFUSEudlwlQVFcWhh9bI4uyySI7zSKQUVFxEkXZQ3CJxl0RZXPUZkdkQEUE
@@ -657,7 +657,7 @@
         KhmQ/cbrQAHg/xzzkbmCC7RxAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="btnHapusPoli.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnHapusBag.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         xAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGcSURBVEhL7ZW7
@@ -671,7 +671,7 @@
         QmCC
 </value>
   </data>
-  <data name="btnBatalPoli.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnBatalBag.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         xAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAOASURBVEhLzVbX
@@ -693,7 +693,7 @@
         RU5ErkJggg==
 </value>
   </data>
-  <data name="btnEditPoli.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnEditBag.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         xAAADsQBlSsOGwAABBVJREFUSEutls9PHGUYx18PmuilgjG2VtNag0SMTZs2baKpBz00JCS9GC+a2D+g
@@ -716,7 +716,7 @@
         CkhMx2ylYLT+aOTmJnJUkJwesEoh3kAWFxfF03iUUM00f+0pH8C/qYeQ08m0rIcAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btnSimpanPoli.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnSimpanBag.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAAK/INwWK6QAAAAlwSFlzAAAO
         xAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAZsSURBVEhL7dbZ
@@ -750,7 +750,7 @@
         G/evf012Bf878r8Gw98AywrcHqcvoCwAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btnCariPoli.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnCariBag.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         xAAADsQBlSsOGwAABhBJREFUWEfll2tMk1cYx92yZYvL1ESzD2b7sH0188OSfdonzbagEB3RoaKDMfEy
