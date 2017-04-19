@@ -57,6 +57,7 @@
     <Compile Include="Master\PriorityModel.cs" />
     <Compile Include="Master\ReferenceModel.cs" />
     <Compile Include="Master\SenderModel.cs" />
+    <Compile Include="Master\SpecialistModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
