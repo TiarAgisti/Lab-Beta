@@ -1,4 +1,4 @@
-﻿using LaboratoriesController.Master;
+﻿//using LaboratoriesController.Master;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,11 +9,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MainLaboratory.Master
+namespace Lab_Beta.Master
 {
     public partial class FrmPasien : Form
     {
-        private LocationController location = null;
+        //private LocationController location = null;
 
         public FrmPasien()
         {

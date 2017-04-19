@@ -143,6 +143,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Lab-Beta.BF\Lab-Beta.BF.csproj">
+      <Project>{f950083c-eaef-427b-b644-fb1fa651cf12}</Project>
+      <Name>Lab-Beta.BF</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Lab-Beta.Controller\Lab-Beta.Controller.csproj">
       <Project>{d8f80adb-3a50-44e6-bacd-a8fcff563dd7}</Project>
       <Name>Lab-Beta.Controller</Name>

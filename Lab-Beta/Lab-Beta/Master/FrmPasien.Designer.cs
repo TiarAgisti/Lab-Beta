@@ -1,4 +1,4 @@
-﻿namespace MainLaboratory.Master
+﻿namespace Lab_Beta.Master
 {
     partial class FrmPasien
     {

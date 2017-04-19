@@ -1,4 +1,4 @@
-﻿namespace MainLaboratory.Master
+﻿namespace Lab_Beta.Master
 {
     partial class FrmDokter
     {
@@ -55,7 +55,7 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.ComboBox5 = new System.Windows.Forms.ComboBox();
+            this.cbxBlood = new System.Windows.Forms.ComboBox();
             this.label19 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
@@ -131,7 +131,7 @@
             this.panel1.Controls.Add(this.label23);
             this.panel1.Controls.Add(this.label22);
             this.panel1.Controls.Add(this.label21);
-            this.panel1.Controls.Add(this.ComboBox5);
+            this.panel1.Controls.Add(this.cbxBlood);
             this.panel1.Controls.Add(this.label19);
             this.panel1.Controls.Add(this.textBox6);
             this.panel1.Controls.Add(this.label18);
@@ -385,18 +385,18 @@
             this.label21.TabIndex = 176;
             this.label21.Text = "Provinsi";
             // 
-            // ComboBox5
+            // cbxBlood
             // 
-            this.ComboBox5.FormattingEnabled = true;
-            this.ComboBox5.Items.AddRange(new object[] {
+            this.cbxBlood.FormattingEnabled = true;
+            this.cbxBlood.Items.AddRange(new object[] {
             "A",
             "B",
             "AB",
             "O"});
-            this.ComboBox5.Location = new System.Drawing.Point(225, 70);
-            this.ComboBox5.Name = "ComboBox5";
-            this.ComboBox5.Size = new System.Drawing.Size(80, 21);
-            this.ComboBox5.TabIndex = 171;
+            this.cbxBlood.Location = new System.Drawing.Point(225, 70);
+            this.cbxBlood.Name = "cbxBlood";
+            this.cbxBlood.Size = new System.Drawing.Size(80, 21);
+            this.cbxBlood.TabIndex = 171;
             // 
             // label19
             // 
@@ -813,7 +813,7 @@
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
-        internal System.Windows.Forms.ComboBox ComboBox5;
+        internal System.Windows.Forms.ComboBox cbxBlood;
         internal System.Windows.Forms.Label label19;
         internal System.Windows.Forms.TextBox textBox6;
         internal System.Windows.Forms.Label label18;
