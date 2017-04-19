@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CoreModel.cs" />
+    <Compile Include="Master\AccessModel.cs" />
+    <Compile Include="Master\AccountBankModel.cs" />
     <Compile Include="Master\BloodGroupModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
