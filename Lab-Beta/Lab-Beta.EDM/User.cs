@@ -23,9 +23,9 @@ namespace Lab_Beta.EDM
         public string Email { get; set; }
         public bool Status { get; set; }
         public byte[] Picture { get; set; }
-        public int UserIdCreate { get; set; }
+        public int UserCreate { get; set; }
         public System.DateTime DateCreate { get; set; }
-        public Nullable<int> UserIdModify { get; set; }
+        public Nullable<int> UserModify { get; set; }
         public Nullable<System.DateTime> DateModify { get; set; }
     }
 }

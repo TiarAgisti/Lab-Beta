@@ -323,9 +323,9 @@
           <Property Name="Email" Type="varchar" MaxLength="150" />
           <Property Name="Status" Type="bit" Nullable="false" />
           <Property Name="Picture" Type="image" />
-          <Property Name="UserIdCreate" Type="int" Nullable="false" />
+          <Property Name="UserCreate" Type="int" Nullable="false" />
           <Property Name="DateCreate" Type="datetime" Nullable="false" />
-          <Property Name="UserIdModify" Type="int" />
+          <Property Name="UserModify" Type="int" />
           <Property Name="DateModify" Type="datetime" />
         </EntityType>
         <EntityContainer Name="LaboratoriesModelStoreContainer">
@@ -696,9 +696,9 @@
           <Property Name="Email" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
           <Property Name="Status" Type="Boolean" Nullable="false" />
           <Property Name="Picture" Type="Binary" MaxLength="Max" FixedLength="false" />
-          <Property Name="UserIdCreate" Type="Int32" Nullable="false" />
+          <Property Name="UserCreate" Type="Int32" Nullable="false" />
           <Property Name="DateCreate" Type="DateTime" Nullable="false" Precision="3" />
-          <Property Name="UserIdModify" Type="Int32" />
+          <Property Name="UserModify" Type="Int32" />
           <Property Name="DateModify" Type="DateTime" Precision="3" />
         </EntityType>
         </Schema>
@@ -1036,9 +1036,9 @@
             <EntityTypeMapping TypeName="LaboratoriesModel.User">
               <MappingFragment StoreEntitySet="User">
                 <ScalarProperty Name="DateModify" ColumnName="DateModify" />
-                <ScalarProperty Name="UserIdModify" ColumnName="UserIdModify" />
+                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
                 <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
-                <ScalarProperty Name="UserIdCreate" ColumnName="UserIdCreate" />
+                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
                 <ScalarProperty Name="Picture" ColumnName="Picture" />
                 <ScalarProperty Name="Status" ColumnName="Status" />
                 <ScalarProperty Name="Email" ColumnName="Email" />
