@@ -50,6 +50,8 @@
     <Compile Include="Master\EducationModel.cs" />
     <Compile Include="Master\GroupStockModel.cs" />
     <Compile Include="Master\GroupUserModel.cs" />
+    <Compile Include="Master\JobModel.cs" />
+    <Compile Include="Master\LocationModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
