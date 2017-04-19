@@ -56,6 +56,7 @@
     <Compile Include="Master\PatienModel.cs" />
     <Compile Include="Master\PriorityModel.cs" />
     <Compile Include="Master\ReferenceModel.cs" />
+    <Compile Include="Master\SenderModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
