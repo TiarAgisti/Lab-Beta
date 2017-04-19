@@ -60,6 +60,7 @@
     <Compile Include="Master\SpecialistModel.cs" />
     <Compile Include="Master\StockModel.cs" />
     <Compile Include="Master\SupplierModel.cs" />
+    <Compile Include="Master\TypeStockModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
