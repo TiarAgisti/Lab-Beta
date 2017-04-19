@@ -14,7 +14,7 @@ namespace Lab_Beta.EDM
     
     public partial class Reference
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
         public string ReferenceName { get; set; }
         public string ContactName { get; set; }
         public string Address { get; set; }

@@ -14,7 +14,7 @@ namespace Lab_Beta.EDM
     
     public partial class MethodPayment
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
         public string Description { get; set; }
         public Nullable<int> UserCreate { get; set; }
         public Nullable<System.DateTime> DateCreate { get; set; }

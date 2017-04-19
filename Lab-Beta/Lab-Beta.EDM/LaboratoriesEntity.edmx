@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="LaboratoriesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="LaboratoriesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Access">
           <Key>
             <PropertyRef Name="Id" />
@@ -21,9 +21,9 @@
         </EntityType>
         <EntityType Name="AccountBank">
           <Key>
-            <PropertyRef Name="ID" />
+            <PropertyRef Name="Id" />
           </Key>
-          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Name" Type="varchar" MaxLength="150" Nullable="false" />
           <Property Name="UserCreate" Type="int" />
           <Property Name="DateCreate" Type="datetime2" Precision="0" />
@@ -47,9 +47,9 @@
         </EntityType>
         <EntityType Name="Departement">
           <Key>
-            <PropertyRef Name="ID" />
+            <PropertyRef Name="Id" />
           </Key>
-          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Description" Type="varchar" MaxLength="150" />
           <Property Name="UserCreate" Type="int" />
           <Property Name="DateCreate" Type="datetime2" Precision="0" />
@@ -71,9 +71,9 @@
         </EntityType>
         <EntityType Name="Doctor">
           <Key>
-            <PropertyRef Name="ID" />
+            <PropertyRef Name="Id" />
           </Key>
-          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Name" Type="varchar" MaxLength="45" />
           <Property Name="Gender" Type="varchar" MaxLength="1" />
           <Property Name="DateOfBirth" Type="date" />
@@ -147,9 +147,9 @@
         </EntityType>
         <EntityType Name="MethodPayment">
           <Key>
-            <PropertyRef Name="ID" />
+            <PropertyRef Name="Id" />
           </Key>
-          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Description" Type="varchar" MaxLength="50" />
           <Property Name="UserCreate" Type="int" />
           <Property Name="DateCreate" Type="datetime2" Precision="0" />
@@ -197,9 +197,9 @@
         </EntityType>
         <EntityType Name="Reference">
           <Key>
-            <PropertyRef Name="ID" />
+            <PropertyRef Name="Id" />
           </Key>
-          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="ReferenceName" Type="varchar" MaxLength="45" />
           <Property Name="ContactName" Type="varchar" MaxLength="45" />
           <Property Name="Address" Type="varchar" MaxLength="45" />
@@ -220,9 +220,9 @@
         </EntityType>
         <EntityType Name="Sender">
           <Key>
-            <PropertyRef Name="ID" />
+            <PropertyRef Name="Id" />
           </Key>
-          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="SenderName" Type="varchar" MaxLength="45" />
           <Property Name="ContactName" Type="varchar" MaxLength="45" />
           <Property Name="Address" Type="varchar" MaxLength="45" />
@@ -276,9 +276,9 @@
         </EntityType>
         <EntityType Name="Supplier">
           <Key>
-            <PropertyRef Name="ID" />
+            <PropertyRef Name="Id" />
           </Key>
-          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="SupplyerName" Type="varchar" MaxLength="45" />
           <Property Name="ContactName" Type="varchar" MaxLength="45" />
           <Property Name="Address" Type="varchar" MaxLength="45" />
@@ -350,20 +350,42 @@
           <EntitySet Name="TypeStock" EntityType="Self.TypeStock" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="LaboratoriesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="LaboratoriesEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Accesses" EntityType="LaboratoriesModel.Access" />
+          <EntitySet Name="AccountBanks" EntityType="LaboratoriesModel.AccountBank" />
+          <EntitySet Name="BloodGroups" EntityType="LaboratoriesModel.BloodGroup" />
+          <EntitySet Name="Departements" EntityType="LaboratoriesModel.Departement" />
+          <EntitySet Name="Divisions" EntityType="LaboratoriesModel.Division" />
+          <EntitySet Name="Doctors" EntityType="LaboratoriesModel.Doctor" />
+          <EntitySet Name="Educations" EntityType="LaboratoriesModel.Education" />
+          <EntitySet Name="GroupStocks" EntityType="LaboratoriesModel.GroupStock" />
+          <EntitySet Name="GroupUsers" EntityType="LaboratoriesModel.GroupUser" />
+          <EntitySet Name="Jobs" EntityType="LaboratoriesModel.Job" />
+          <EntitySet Name="Locations" EntityType="LaboratoriesModel.Location" />
+          <EntitySet Name="MethodPayments" EntityType="LaboratoriesModel.MethodPayment" />
+          <EntitySet Name="Patiens" EntityType="LaboratoriesModel.Patien" />
+          <EntitySet Name="Priorities" EntityType="LaboratoriesModel.Priority" />
+          <EntitySet Name="References" EntityType="LaboratoriesModel.Reference" />
+          <EntitySet Name="Senders" EntityType="LaboratoriesModel.Sender" />
+          <EntitySet Name="Specialists" EntityType="LaboratoriesModel.Specialist" />
+          <EntitySet Name="Stocks" EntityType="LaboratoriesModel.Stock" />
+          <EntitySet Name="Suppliers" EntityType="LaboratoriesModel.Supplier" />
+          <EntitySet Name="TypeStocks" EntityType="LaboratoriesModel.TypeStock" />
+          <EntitySet Name="Users" EntityType="LaboratoriesModel.User" />
+        </EntityContainer>
         <EntityType Name="Access">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="GroupUserId" Type="Int32" Nullable="false" />
-          <Property Name="NameOption" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Controller" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Action" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="NameOption" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="Controller" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="Action" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
           <Property Name="ImageClass" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
           <Property Name="Status" Type="Boolean" Nullable="false" />
           <Property Name="isParent" Type="Boolean" Nullable="false" />
@@ -371,10 +393,10 @@
         </EntityType>
         <EntityType Name="AccountBank">
           <Key>
-            <PropertyRef Name="ID" />
+            <PropertyRef Name="Id" />
           </Key>
-          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Name" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
           <Property Name="UserCreate" Type="Int32" />
           <Property Name="DateCreate" Type="DateTime" Precision="0" />
           <Property Name="UserModify" Type="Int32" />
@@ -386,9 +408,9 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Type" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Rhesus" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Type" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="Rhesus" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
           <Property Name="UserCreate" Type="Int32" />
           <Property Name="DateCreate" Type="DateTime" Precision="0" />
           <Property Name="UserModify" Type="Int32" />
@@ -397,9 +419,9 @@
         </EntityType>
         <EntityType Name="Departement">
           <Key>
-            <PropertyRef Name="ID" />
+            <PropertyRef Name="Id" />
           </Key>
-          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Description" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
           <Property Name="UserCreate" Type="Int32" />
           <Property Name="DateCreate" Type="DateTime" Precision="0" />
@@ -412,7 +434,7 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Description" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Description" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
           <Property Name="UserCreate" Type="Int32" />
           <Property Name="DateCreate" Type="DateTime" Precision="0" />
           <Property Name="UserModify" Type="Int32" />
@@ -421,9 +443,9 @@
         </EntityType>
         <EntityType Name="Doctor">
           <Key>
-            <PropertyRef Name="ID" />
+            <PropertyRef Name="Id" />
           </Key>
-          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Name" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
           <Property Name="Gender" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
           <Property Name="DateOfBirth" Type="DateTime" Precision="0" />
@@ -462,21 +484,21 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Description" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Description" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="GroupUser">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Description" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Description" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="Job">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Description" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Description" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
           <Property Name="UserCreate" Type="Int32" />
           <Property Name="DateCreate" Type="DateTime" Precision="0" />
           <Property Name="UserModify" Type="Int32" />
@@ -488,8 +510,8 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" />
-          <Property Name="CodeLocation" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Name" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CodeLocation" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
           <Property Name="Province" Type="Int16" Nullable="false" />
           <Property Name="City" Type="Int16" Nullable="false" />
           <Property Name="District" Type="Int16" Nullable="false" />
@@ -497,9 +519,9 @@
         </EntityType>
         <EntityType Name="MethodPayment">
           <Key>
-            <PropertyRef Name="ID" />
+            <PropertyRef Name="Id" />
           </Key>
-          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="UserCreate" Type="Int32" />
           <Property Name="DateCreate" Type="DateTime" Precision="0" />
@@ -512,12 +534,12 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="CodePatien" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Name" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Gender" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
-          <Property Name="PlaceOfBirth" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CodePatien" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="Gender" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="PlaceOfBirth" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
           <Property Name="DateOfBirth" Type="DateTime" Nullable="false" Precision="0" />
-          <Property Name="Address" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Address" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
           <Property Name="TelpHome" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
           <Property Name="TelpWork" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
           <Property Name="Email" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
@@ -538,7 +560,7 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" />
-          <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Description" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="UserCreate" Type="Int32" />
           <Property Name="DateCreate" Type="DateTime" Precision="0" />
           <Property Name="UserModify" Type="Int32" />
@@ -547,9 +569,9 @@
         </EntityType>
         <EntityType Name="Reference">
           <Key>
-            <PropertyRef Name="ID" />
+            <PropertyRef Name="Id" />
           </Key>
-          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="ReferenceName" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
           <Property Name="ContactName" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
           <Property Name="Address" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
@@ -570,9 +592,9 @@
         </EntityType>
         <EntityType Name="Sender">
           <Key>
-            <PropertyRef Name="ID" />
+            <PropertyRef Name="Id" />
           </Key>
-          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="SenderName" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
           <Property Name="ContactName" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
           <Property Name="Address" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
@@ -596,8 +618,8 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="CodeSpecialist" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Description" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CodeSpecialist" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Description" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
           <Property Name="UserCreate" Type="Int32" />
           <Property Name="DateCreate" Type="DateTime" Precision="0" />
           <Property Name="UserModify" Type="Int32" />
@@ -609,10 +631,10 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="CodeStock" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Name" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CodeStock" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
           <Property Name="Qty" Type="Int32" Nullable="false" />
-          <Property Name="Unit" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Unit" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="TypeStockId" Type="Int32" Nullable="false" />
           <Property Name="GroupStockId" Type="Int32" Nullable="false" />
           <Property Name="ExpDate" Type="DateTime" Nullable="false" Precision="0" />
@@ -626,9 +648,9 @@
         </EntityType>
         <EntityType Name="Supplier">
           <Key>
-            <PropertyRef Name="ID" />
+            <PropertyRef Name="Id" />
           </Key>
-          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="SupplyerName" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
           <Property Name="ContactName" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
           <Property Name="Address" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
@@ -652,7 +674,7 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Description" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Description" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
           <Property Name="UserCreate" Type="Int32" />
           <Property Name="DateCreate" Type="DateTime" Precision="0" />
           <Property Name="UserModify" Type="Int32" />
@@ -664,9 +686,9 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="UserName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Name" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Password" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="UserName" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="Password" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
           <Property Name="DepartementId" Type="Int32" Nullable="false" />
           <Property Name="GroupUserId" Type="Int32" Nullable="false" />
           <Property Name="Email" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
@@ -677,29 +699,6 @@
           <Property Name="UserIdModify" Type="Int32" />
           <Property Name="DateModify" Type="DateTime" Precision="3" />
         </EntityType>
-        <EntityContainer Name="LaboratoriesEntities" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="Accesses" EntityType="Self.Access" />
-          <EntitySet Name="AccountBanks" EntityType="Self.AccountBank" />
-          <EntitySet Name="BloodGroups" EntityType="Self.BloodGroup" />
-          <EntitySet Name="Departements" EntityType="Self.Departement" />
-          <EntitySet Name="Divisions" EntityType="Self.Division" />
-          <EntitySet Name="Doctors" EntityType="Self.Doctor" />
-          <EntitySet Name="Educations" EntityType="Self.Education" />
-          <EntitySet Name="GroupStocks" EntityType="Self.GroupStock" />
-          <EntitySet Name="GroupUsers" EntityType="Self.GroupUser" />
-          <EntitySet Name="Jobs" EntityType="Self.Job" />
-          <EntitySet Name="Locations" EntityType="Self.Location" />
-          <EntitySet Name="MethodPayments" EntityType="Self.MethodPayment" />
-          <EntitySet Name="Patiens" EntityType="Self.Patien" />
-          <EntitySet Name="Priorities" EntityType="Self.Priority" />
-          <EntitySet Name="References" EntityType="Self.Reference" />
-          <EntitySet Name="Senders" EntityType="Self.Sender" />
-          <EntitySet Name="Specialists" EntityType="Self.Specialist" />
-          <EntitySet Name="Stocks" EntityType="Self.Stock" />
-          <EntitySet Name="Suppliers" EntityType="Self.Supplier" />
-          <EntitySet Name="TypeStocks" EntityType="Self.TypeStock" />
-          <EntitySet Name="Users" EntityType="Self.User" />
-        </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -709,343 +708,343 @@
           <EntitySetMapping Name="Accesses">
             <EntityTypeMapping TypeName="LaboratoriesModel.Access">
               <MappingFragment StoreEntitySet="Access">
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="GroupUserId" ColumnName="GroupUserId" />
-                <ScalarProperty Name="NameOption" ColumnName="NameOption" />
-                <ScalarProperty Name="Controller" ColumnName="Controller" />
-                <ScalarProperty Name="Action" ColumnName="Action" />
-                <ScalarProperty Name="ImageClass" ColumnName="ImageClass" />
-                <ScalarProperty Name="Status" ColumnName="Status" />
-                <ScalarProperty Name="isParent" ColumnName="isParent" />
                 <ScalarProperty Name="parentId" ColumnName="parentId" />
+                <ScalarProperty Name="isParent" ColumnName="isParent" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="ImageClass" ColumnName="ImageClass" />
+                <ScalarProperty Name="Action" ColumnName="Action" />
+                <ScalarProperty Name="Controller" ColumnName="Controller" />
+                <ScalarProperty Name="NameOption" ColumnName="NameOption" />
+                <ScalarProperty Name="GroupUserId" ColumnName="GroupUserId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="AccountBanks">
             <EntityTypeMapping TypeName="LaboratoriesModel.AccountBank">
               <MappingFragment StoreEntitySet="AccountBank">
-                <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="Name" ColumnName="Name" />
-                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
-                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
-                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
-                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
                 <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
+                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
+                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="BloodGroups">
             <EntityTypeMapping TypeName="LaboratoriesModel.BloodGroup">
               <MappingFragment StoreEntitySet="BloodGroup">
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="Name" ColumnName="Name" />
-                <ScalarProperty Name="Type" ColumnName="Type" />
-                <ScalarProperty Name="Rhesus" ColumnName="Rhesus" />
-                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
-                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
-                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
-                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
                 <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
+                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
+                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
+                <ScalarProperty Name="Rhesus" ColumnName="Rhesus" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Departements">
             <EntityTypeMapping TypeName="LaboratoriesModel.Departement">
               <MappingFragment StoreEntitySet="Departement">
-                <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="Description" ColumnName="Description" />
-                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
-                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
-                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
-                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
                 <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
+                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
+                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Divisions">
             <EntityTypeMapping TypeName="LaboratoriesModel.Division">
               <MappingFragment StoreEntitySet="Division">
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="Description" ColumnName="Description" />
-                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
-                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
-                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
-                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
                 <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
+                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
+                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Doctors">
             <EntityTypeMapping TypeName="LaboratoriesModel.Doctor">
               <MappingFragment StoreEntitySet="Doctor">
-                <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="Name" ColumnName="Name" />
-                <ScalarProperty Name="Gender" ColumnName="Gender" />
-                <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
-                <ScalarProperty Name="Address" ColumnName="Address" />
-                <ScalarProperty Name="Location_ID" ColumnName="Location_ID" />
-                <ScalarProperty Name="BloodGroup_ID" ColumnName="BloodGroup_ID" />
-                <ScalarProperty Name="Specialist_Id" ColumnName="Specialist_Id" />
-                <ScalarProperty Name="TelpHome" ColumnName="TelpHome" />
-                <ScalarProperty Name="TelpWork" ColumnName="TelpWork" />
-                <ScalarProperty Name="Email" ColumnName="Email" />
-                <ScalarProperty Name="Fee" ColumnName="Fee" />
-                <ScalarProperty Name="AccountBank_ID" ColumnName="AccountBank_ID" />
-                <ScalarProperty Name="MethodPayment_ID" ColumnName="MethodPayment_ID" />
-                <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
-                <ScalarProperty Name="AccountName" ColumnName="AccountName" />
-                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
-                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
-                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
-                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
                 <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
+                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
+                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
+                <ScalarProperty Name="AccountName" ColumnName="AccountName" />
+                <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+                <ScalarProperty Name="MethodPayment_ID" ColumnName="MethodPayment_ID" />
+                <ScalarProperty Name="AccountBank_ID" ColumnName="AccountBank_ID" />
+                <ScalarProperty Name="Fee" ColumnName="Fee" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="TelpWork" ColumnName="TelpWork" />
+                <ScalarProperty Name="TelpHome" ColumnName="TelpHome" />
+                <ScalarProperty Name="Specialist_Id" ColumnName="Specialist_Id" />
+                <ScalarProperty Name="BloodGroup_ID" ColumnName="BloodGroup_ID" />
+                <ScalarProperty Name="Location_ID" ColumnName="Location_ID" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Educations">
             <EntityTypeMapping TypeName="LaboratoriesModel.Education">
               <MappingFragment StoreEntitySet="Education">
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="Desctiption" ColumnName="Desctiption" />
-                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
-                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
-                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
-                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
                 <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
+                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
+                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
+                <ScalarProperty Name="Desctiption" ColumnName="Desctiption" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="GroupStocks">
             <EntityTypeMapping TypeName="LaboratoriesModel.GroupStock">
               <MappingFragment StoreEntitySet="GroupStock">
-                <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="GroupUsers">
             <EntityTypeMapping TypeName="LaboratoriesModel.GroupUser">
               <MappingFragment StoreEntitySet="GroupUser">
-                <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Jobs">
             <EntityTypeMapping TypeName="LaboratoriesModel.Job">
               <MappingFragment StoreEntitySet="Job">
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="Description" ColumnName="Description" />
-                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
-                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
-                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
-                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
                 <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
+                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
+                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Locations">
             <EntityTypeMapping TypeName="LaboratoriesModel.Location">
               <MappingFragment StoreEntitySet="Location">
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="CodeLocation" ColumnName="CodeLocation" />
-                <ScalarProperty Name="Name" ColumnName="Name" />
-                <ScalarProperty Name="Province" ColumnName="Province" />
-                <ScalarProperty Name="City" ColumnName="City" />
-                <ScalarProperty Name="District" ColumnName="District" />
                 <ScalarProperty Name="Locality" ColumnName="Locality" />
+                <ScalarProperty Name="District" ColumnName="District" />
+                <ScalarProperty Name="City" ColumnName="City" />
+                <ScalarProperty Name="Province" ColumnName="Province" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="CodeLocation" ColumnName="CodeLocation" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="MethodPayments">
             <EntityTypeMapping TypeName="LaboratoriesModel.MethodPayment">
               <MappingFragment StoreEntitySet="MethodPayment">
-                <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="Description" ColumnName="Description" />
-                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
-                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
-                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
-                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
                 <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
+                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
+                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Patiens">
             <EntityTypeMapping TypeName="LaboratoriesModel.Patien">
               <MappingFragment StoreEntitySet="Patien">
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="CodePatien" ColumnName="CodePatien" />
-                <ScalarProperty Name="Name" ColumnName="Name" />
-                <ScalarProperty Name="Gender" ColumnName="Gender" />
-                <ScalarProperty Name="PlaceOfBirth" ColumnName="PlaceOfBirth" />
-                <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
-                <ScalarProperty Name="Address" ColumnName="Address" />
-                <ScalarProperty Name="TelpHome" ColumnName="TelpHome" />
-                <ScalarProperty Name="TelpWork" ColumnName="TelpWork" />
-                <ScalarProperty Name="Email" ColumnName="Email" />
-                <ScalarProperty Name="Notes" ColumnName="Notes" />
-                <ScalarProperty Name="BloodGroupId" ColumnName="BloodGroupId" />
-                <ScalarProperty Name="EducationId" ColumnName="EducationId" />
-                <ScalarProperty Name="JobId" ColumnName="JobId" />
-                <ScalarProperty Name="LocationId" ColumnName="LocationId" />
-                <ScalarProperty Name="Picture" ColumnName="Picture" />
-                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
-                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
-                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
-                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
                 <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
+                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
+                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
+                <ScalarProperty Name="Picture" ColumnName="Picture" />
+                <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+                <ScalarProperty Name="JobId" ColumnName="JobId" />
+                <ScalarProperty Name="EducationId" ColumnName="EducationId" />
+                <ScalarProperty Name="BloodGroupId" ColumnName="BloodGroupId" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="TelpWork" ColumnName="TelpWork" />
+                <ScalarProperty Name="TelpHome" ColumnName="TelpHome" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+                <ScalarProperty Name="PlaceOfBirth" ColumnName="PlaceOfBirth" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="CodePatien" ColumnName="CodePatien" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Priorities">
             <EntityTypeMapping TypeName="LaboratoriesModel.Priority">
               <MappingFragment StoreEntitySet="Priority">
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="Description" ColumnName="Description" />
-                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
-                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
-                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
-                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
                 <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
+                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
+                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="References">
             <EntityTypeMapping TypeName="LaboratoriesModel.Reference">
               <MappingFragment StoreEntitySet="Reference">
-                <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="ReferenceName" ColumnName="ReferenceName" />
-                <ScalarProperty Name="ContactName" ColumnName="ContactName" />
-                <ScalarProperty Name="Address" ColumnName="Address" />
-                <ScalarProperty Name="Location_ID" ColumnName="Location_ID" />
-                <ScalarProperty Name="TelpHome" ColumnName="TelpHome" />
-                <ScalarProperty Name="TelpWork" ColumnName="TelpWork" />
-                <ScalarProperty Name="Email" ColumnName="Email" />
-                <ScalarProperty Name="Discount" ColumnName="Discount" />
-                <ScalarProperty Name="AccountBankID" ColumnName="AccountBankID" />
-                <ScalarProperty Name="MethodPaymentID" ColumnName="MethodPaymentID" />
-                <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
-                <ScalarProperty Name="AccountName" ColumnName="AccountName" />
-                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
-                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
-                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
-                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
                 <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
+                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
+                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
+                <ScalarProperty Name="AccountName" ColumnName="AccountName" />
+                <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+                <ScalarProperty Name="MethodPaymentID" ColumnName="MethodPaymentID" />
+                <ScalarProperty Name="AccountBankID" ColumnName="AccountBankID" />
+                <ScalarProperty Name="Discount" ColumnName="Discount" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="TelpWork" ColumnName="TelpWork" />
+                <ScalarProperty Name="TelpHome" ColumnName="TelpHome" />
+                <ScalarProperty Name="Location_ID" ColumnName="Location_ID" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+                <ScalarProperty Name="ReferenceName" ColumnName="ReferenceName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Senders">
             <EntityTypeMapping TypeName="LaboratoriesModel.Sender">
               <MappingFragment StoreEntitySet="Sender">
-                <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="SenderName" ColumnName="SenderName" />
-                <ScalarProperty Name="ContactName" ColumnName="ContactName" />
-                <ScalarProperty Name="Address" ColumnName="Address" />
-                <ScalarProperty Name="Location_ID" ColumnName="Location_ID" />
-                <ScalarProperty Name="TelpHome" ColumnName="TelpHome" />
-                <ScalarProperty Name="TelpWork" ColumnName="TelpWork" />
-                <ScalarProperty Name="Email" ColumnName="Email" />
-                <ScalarProperty Name="Discount" ColumnName="Discount" />
-                <ScalarProperty Name="AccountBankID" ColumnName="AccountBankID" />
-                <ScalarProperty Name="MethodPaymentID" ColumnName="MethodPaymentID" />
-                <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
-                <ScalarProperty Name="AccountName" ColumnName="AccountName" />
-                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
-                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
-                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
-                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
                 <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
+                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
+                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
+                <ScalarProperty Name="AccountName" ColumnName="AccountName" />
+                <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+                <ScalarProperty Name="MethodPaymentID" ColumnName="MethodPaymentID" />
+                <ScalarProperty Name="AccountBankID" ColumnName="AccountBankID" />
+                <ScalarProperty Name="Discount" ColumnName="Discount" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="TelpWork" ColumnName="TelpWork" />
+                <ScalarProperty Name="TelpHome" ColumnName="TelpHome" />
+                <ScalarProperty Name="Location_ID" ColumnName="Location_ID" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+                <ScalarProperty Name="SenderName" ColumnName="SenderName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Specialists">
             <EntityTypeMapping TypeName="LaboratoriesModel.Specialist">
               <MappingFragment StoreEntitySet="Specialist">
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="CodeSpecialist" ColumnName="CodeSpecialist" />
-                <ScalarProperty Name="Description" ColumnName="Description" />
-                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
-                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
-                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
-                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
                 <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
+                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
+                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="CodeSpecialist" ColumnName="CodeSpecialist" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Stocks">
             <EntityTypeMapping TypeName="LaboratoriesModel.Stock">
               <MappingFragment StoreEntitySet="Stock">
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="CodeStock" ColumnName="CodeStock" />
-                <ScalarProperty Name="Name" ColumnName="Name" />
-                <ScalarProperty Name="Qty" ColumnName="Qty" />
-                <ScalarProperty Name="Unit" ColumnName="Unit" />
-                <ScalarProperty Name="TypeStockId" ColumnName="TypeStockId" />
-                <ScalarProperty Name="GroupStockId" ColumnName="GroupStockId" />
-                <ScalarProperty Name="ExpDate" ColumnName="ExpDate" />
-                <ScalarProperty Name="WarningDate" ColumnName="WarningDate" />
-                <ScalarProperty Name="WarningQty" ColumnName="WarningQty" />
-                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
-                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
-                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
-                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
                 <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
+                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
+                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
+                <ScalarProperty Name="WarningQty" ColumnName="WarningQty" />
+                <ScalarProperty Name="WarningDate" ColumnName="WarningDate" />
+                <ScalarProperty Name="ExpDate" ColumnName="ExpDate" />
+                <ScalarProperty Name="GroupStockId" ColumnName="GroupStockId" />
+                <ScalarProperty Name="TypeStockId" ColumnName="TypeStockId" />
+                <ScalarProperty Name="Unit" ColumnName="Unit" />
+                <ScalarProperty Name="Qty" ColumnName="Qty" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="CodeStock" ColumnName="CodeStock" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Suppliers">
             <EntityTypeMapping TypeName="LaboratoriesModel.Supplier">
               <MappingFragment StoreEntitySet="Supplier">
-                <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="SupplyerName" ColumnName="SupplyerName" />
-                <ScalarProperty Name="ContactName" ColumnName="ContactName" />
-                <ScalarProperty Name="Address" ColumnName="Address" />
-                <ScalarProperty Name="Location_ID" ColumnName="Location_ID" />
-                <ScalarProperty Name="TelpHome" ColumnName="TelpHome" />
-                <ScalarProperty Name="TelpWork" ColumnName="TelpWork" />
-                <ScalarProperty Name="Email" ColumnName="Email" />
-                <ScalarProperty Name="Discount" ColumnName="Discount" />
-                <ScalarProperty Name="AccountBankID" ColumnName="AccountBankID" />
-                <ScalarProperty Name="MethodPaymentID" ColumnName="MethodPaymentID" />
-                <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
-                <ScalarProperty Name="AccountName" ColumnName="AccountName" />
-                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
-                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
-                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
-                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
                 <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
+                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
+                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
+                <ScalarProperty Name="AccountName" ColumnName="AccountName" />
+                <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+                <ScalarProperty Name="MethodPaymentID" ColumnName="MethodPaymentID" />
+                <ScalarProperty Name="AccountBankID" ColumnName="AccountBankID" />
+                <ScalarProperty Name="Discount" ColumnName="Discount" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="TelpWork" ColumnName="TelpWork" />
+                <ScalarProperty Name="TelpHome" ColumnName="TelpHome" />
+                <ScalarProperty Name="Location_ID" ColumnName="Location_ID" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+                <ScalarProperty Name="SupplyerName" ColumnName="SupplyerName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="TypeStocks">
             <EntityTypeMapping TypeName="LaboratoriesModel.TypeStock">
               <MappingFragment StoreEntitySet="TypeStock">
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="Description" ColumnName="Description" />
-                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
-                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
-                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
-                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
                 <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="DateModify" ColumnName="DateModify" />
+                <ScalarProperty Name="UserModify" ColumnName="UserModify" />
+                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+                <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Users">
             <EntityTypeMapping TypeName="LaboratoriesModel.User">
               <MappingFragment StoreEntitySet="User">
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="UserName" ColumnName="UserName" />
-                <ScalarProperty Name="Name" ColumnName="Name" />
-                <ScalarProperty Name="Password" ColumnName="Password" />
-                <ScalarProperty Name="DepartementId" ColumnName="DepartementId" />
-                <ScalarProperty Name="GroupUserId" ColumnName="GroupUserId" />
-                <ScalarProperty Name="Email" ColumnName="Email" />
-                <ScalarProperty Name="Status" ColumnName="Status" />
-                <ScalarProperty Name="Picture" ColumnName="Picture" />
-                <ScalarProperty Name="UserIdCreate" ColumnName="UserIdCreate" />
-                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
-                <ScalarProperty Name="UserIdModify" ColumnName="UserIdModify" />
                 <ScalarProperty Name="DateModify" ColumnName="DateModify" />
+                <ScalarProperty Name="UserIdModify" ColumnName="UserIdModify" />
+                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+                <ScalarProperty Name="UserIdCreate" ColumnName="UserIdCreate" />
+                <ScalarProperty Name="Picture" ColumnName="Picture" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="GroupUserId" ColumnName="GroupUserId" />
+                <ScalarProperty Name="DepartementId" ColumnName="DepartementId" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

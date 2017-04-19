@@ -14,7 +14,7 @@ namespace Lab_Beta.EDM
     
     public partial class AccountBank
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public Nullable<int> UserCreate { get; set; }
         public Nullable<System.DateTime> DateCreate { get; set; }
