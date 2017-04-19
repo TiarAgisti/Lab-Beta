@@ -76,6 +76,7 @@
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Name" Type="varchar" MaxLength="45" />
           <Property Name="Gender" Type="varchar" MaxLength="1" />
+          <Property Name="PlaceOfBirth" Type="varchar" MaxLength="150" />
           <Property Name="DateOfBirth" Type="date" />
           <Property Name="Address" Type="varchar" MaxLength="255" />
           <Property Name="Location_ID" Type="int" Nullable="false" />
@@ -448,6 +449,7 @@
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Name" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
           <Property Name="Gender" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="PlaceOfBirth" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
           <Property Name="DateOfBirth" Type="DateTime" Precision="0" />
           <Property Name="Address" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
           <Property Name="Location_ID" Type="Int32" Nullable="false" />
@@ -795,6 +797,7 @@
                 <ScalarProperty Name="Location_ID" ColumnName="Location_ID" />
                 <ScalarProperty Name="Address" ColumnName="Address" />
                 <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+                <ScalarProperty Name="PlaceOfBirth" ColumnName="PlaceOfBirth" />
                 <ScalarProperty Name="Gender" ColumnName="Gender" />
                 <ScalarProperty Name="Name" ColumnName="Name" />
                 <ScalarProperty Name="Id" ColumnName="Id" />

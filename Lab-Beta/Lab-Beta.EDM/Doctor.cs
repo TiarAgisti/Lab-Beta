@@ -17,6 +17,7 @@ namespace Lab_Beta.EDM
         public int Id { get; set; }
         public string Name { get; set; }
         public string Gender { get; set; }
+        public string PlaceOfBirth { get; set; }
         public Nullable<System.DateTime> DateOfBirth { get; set; }
         public string Address { get; set; }
         public int Location_ID { get; set; }

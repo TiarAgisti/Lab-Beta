@@ -6,27 +6,24 @@ using System.Threading.Tasks;
 
 namespace Lab_Beta.Models.Master
 {
-    public class DoctorModel:CoreModel
+    public class PatienModel:CoreModel
     {
+        public string CodePatien { get; set; }
         public string Name { get; set; }
-        public string Gender { get; set; }
+        public char Gender { get; set; }
         public string PlaceOfBirth { get; set; }
         public DateTime DateOfBirth { get; set; }
         public string Address { get; set; }
-
-
-        public int Location_ID { get; set; }
-        public int BloodGroup_ID { get; set; }
-        public int Specialist_Id { get; set; }
-
         public string TelpHome { get; set; }
         public string TelpWork { get; set; }
         public string Email { get; set; }
-        public double Fee { get; set; }
-        public int AccountBank_ID { get; set; }
-        public int MethodPayment_ID { get; set; }
+        public string Notes { get; set; }
 
-        public string AccountNumber { get; set; }
-        public string AccountName { get; set; }
+        public int BloodGroupId { get; set; }
+        public int EducationId { get; set; }
+        public int JobOId { get; set; }
+        public int LocationId { get; set; }
+        public BadImageFormatException Picture { get; set; }
+
     }
 }
