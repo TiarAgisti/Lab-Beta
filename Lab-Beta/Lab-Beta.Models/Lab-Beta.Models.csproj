@@ -47,6 +47,7 @@
     <Compile Include="Master\DepartementModel.cs" />
     <Compile Include="Master\DivisionModel.cs" />
     <Compile Include="Master\DoctorModel.cs" />
+    <Compile Include="Master\EducationModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -100,7 +100,7 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Desctiption" Type="varchar" MaxLength="150" />
+          <Property Name="Description" Type="varchar" MaxLength="150" />
           <Property Name="UserCreate" Type="int" />
           <Property Name="DateCreate" Type="datetime2" Precision="0" />
           <Property Name="UserModify" Type="int" />
@@ -472,7 +472,7 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Desctiption" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="Description" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
           <Property Name="UserCreate" Type="Int32" />
           <Property Name="DateCreate" Type="DateTime" Precision="0" />
           <Property Name="UserModify" Type="Int32" />
@@ -699,7 +699,7 @@
           <Property Name="UserIdModify" Type="Int32" />
           <Property Name="DateModify" Type="DateTime" Precision="3" />
         </EntityType>
-      </Schema>
+        </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
@@ -809,7 +809,7 @@
                 <ScalarProperty Name="UserModify" ColumnName="UserModify" />
                 <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
                 <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
-                <ScalarProperty Name="Desctiption" ColumnName="Desctiption" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>

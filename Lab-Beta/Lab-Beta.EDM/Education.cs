@@ -15,7 +15,7 @@ namespace Lab_Beta.EDM
     public partial class Education
     {
         public int Id { get; set; }
-        public string Desctiption { get; set; }
+        public string Description { get; set; }
         public Nullable<int> UserCreate { get; set; }
         public Nullable<System.DateTime> DateCreate { get; set; }
         public Nullable<int> UserModify { get; set; }
