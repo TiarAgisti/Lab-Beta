@@ -49,6 +49,7 @@
     <Compile Include="Master\DoctorModel.cs" />
     <Compile Include="Master\EducationModel.cs" />
     <Compile Include="Master\GroupStockModel.cs" />
+    <Compile Include="Master\GroupUserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
