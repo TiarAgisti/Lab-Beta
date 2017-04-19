@@ -55,6 +55,7 @@
     <Compile Include="Master\MethodPaymentModel.cs" />
     <Compile Include="Master\PatienModel.cs" />
     <Compile Include="Master\PriorityModel.cs" />
+    <Compile Include="Master\ReferenceModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
