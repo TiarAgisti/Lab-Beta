@@ -16,14 +16,15 @@ namespace Lab_Beta.BF
         {
             db = new LaboratoriesEntities();
 
-            List<BloodGroupModel> data = db.BloodGroups.Where(i => i.IsActive == true)
-                                        .Select(i => new BloodGroupModel
-                                           {
-                                               Id = i.Id,
-                                               Name = i.Name
-                                           }).ToList();
+            //List<BloodGroupModel> data = db.BloodGroups.Where(i => i.IsActive == true)
+            //                            .Select(i => new BloodGroupModel
+            //                               {
+            //                                   Id = i.Id,
+            //                                   Name = i.Name
+            //                               }).ToList();
 
-            return data;
+            //return data;
+            return null;
         }
     }
 }

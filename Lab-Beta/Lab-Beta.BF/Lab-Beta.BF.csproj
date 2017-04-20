@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="BloodGroupBF.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Master\AccountBankBFC.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -68,7 +69,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Master\" />
     <Folder Include="Transaksi\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,4 +1,4 @@
-﻿namespace Lab_Beta.Master
+﻿namespace Lab_Beta.Pengaturan
 {
     partial class FrmPengaturanPembayaran
     {
@@ -31,48 +31,48 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPengaturanPembayaran));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabAkun = new System.Windows.Forms.TabPage();
-            this.tabMetode = new System.Windows.Forms.TabPage();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.txtNamaAkun = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtIdAkun = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnCariAkun = new System.Windows.Forms.Button();
-            this.txtCariAkun = new System.Windows.Forms.TextBox();
-            this.dgvAkun = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnKeluarAkun = new System.Windows.Forms.Button();
             this.btnHapusAkun = new System.Windows.Forms.Button();
             this.btnBatalAkun = new System.Windows.Forms.Button();
             this.btnEditAkun = new System.Windows.Forms.Button();
             this.btnSimpanAkun = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.txtMetode = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtIdMetode = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnCariMetode = new System.Windows.Forms.Button();
-            this.txtCariMetode = new System.Windows.Forms.TextBox();
-            this.dgvMetode = new System.Windows.Forms.DataGridView();
+            this.dgvAkun = new System.Windows.Forms.DataGridView();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnCariAkun = new System.Windows.Forms.Button();
+            this.txtCariAkun = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.txtNamaAkun = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtIdAkun = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.tabMetode = new System.Windows.Forms.TabPage();
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnKeluarMetode = new System.Windows.Forms.Button();
             this.btnHapusMetode = new System.Windows.Forms.Button();
             this.btnBatalMetode = new System.Windows.Forms.Button();
             this.btnEditMetode = new System.Windows.Forms.Button();
             this.btnSimpanMetode = new System.Windows.Forms.Button();
+            this.dgvMetode = new System.Windows.Forms.DataGridView();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnCariMetode = new System.Windows.Forms.Button();
+            this.txtCariMetode = new System.Windows.Forms.TextBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.txtMetode = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtIdMetode = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabAkun.SuspendLayout();
-            this.tabMetode.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAkun)).BeginInit();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvMetode)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAkun)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.tabMetode.SuspendLayout();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMetode)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -99,103 +99,6 @@
             this.tabAkun.Size = new System.Drawing.Size(762, 349);
             this.tabAkun.TabIndex = 0;
             this.tabAkun.Text = "Akun Bank";
-            // 
-            // tabMetode
-            // 
-            this.tabMetode.BackColor = System.Drawing.SystemColors.Control;
-            this.tabMetode.Controls.Add(this.panel4);
-            this.tabMetode.Controls.Add(this.dgvMetode);
-            this.tabMetode.Controls.Add(this.groupBox1);
-            this.tabMetode.Controls.Add(this.panel3);
-            this.tabMetode.Location = new System.Drawing.Point(4, 22);
-            this.tabMetode.Name = "tabMetode";
-            this.tabMetode.Padding = new System.Windows.Forms.Padding(3);
-            this.tabMetode.Size = new System.Drawing.Size(762, 349);
-            this.tabMetode.TabIndex = 1;
-            this.tabMetode.Text = "Metode Pembayaran";
-            // 
-            // panel1
-            // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.txtNamaAkun);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.txtIdAkun);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(3, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(756, 70);
-            this.panel1.TabIndex = 0;
-            // 
-            // txtNamaAkun
-            // 
-            this.txtNamaAkun.Location = new System.Drawing.Point(98, 34);
-            this.txtNamaAkun.Name = "txtNamaAkun";
-            this.txtNamaAkun.Size = new System.Drawing.Size(214, 20);
-            this.txtNamaAkun.TabIndex = 7;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(1, 37);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 13);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Nama Akun Bank";
-            // 
-            // txtIdAkun
-            // 
-            this.txtIdAkun.Location = new System.Drawing.Point(98, 8);
-            this.txtIdAkun.Name = "txtIdAkun";
-            this.txtIdAkun.Size = new System.Drawing.Size(100, 20);
-            this.txtIdAkun.TabIndex = 5;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(1, 11);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(18, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "ID";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.btnCariAkun);
-            this.groupBox2.Controls.Add(this.txtCariAkun);
-            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupBox2.Location = new System.Drawing.Point(3, 73);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(756, 53);
-            this.groupBox2.TabIndex = 4;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Pencarian Data";
-            // 
-            // btnCariAkun
-            // 
-            this.btnCariAkun.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnCariAkun.Image = ((System.Drawing.Image)(resources.GetObject("btnCariAkun.Image")));
-            this.btnCariAkun.Location = new System.Drawing.Point(430, 10);
-            this.btnCariAkun.Name = "btnCariAkun";
-            this.btnCariAkun.Size = new System.Drawing.Size(75, 36);
-            this.btnCariAkun.TabIndex = 176;
-            this.btnCariAkun.UseVisualStyleBackColor = true;
-            // 
-            // txtCariAkun
-            // 
-            this.txtCariAkun.Location = new System.Drawing.Point(8, 19);
-            this.txtCariAkun.Name = "txtCariAkun";
-            this.txtCariAkun.Size = new System.Drawing.Size(416, 20);
-            this.txtCariAkun.TabIndex = 176;
-            // 
-            // dgvAkun
-            // 
-            this.dgvAkun.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAkun.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgvAkun.Location = new System.Drawing.Point(3, 126);
-            this.dgvAkun.Name = "dgvAkun";
-            this.dgvAkun.Size = new System.Drawing.Size(756, 165);
-            this.dgvAkun.TabIndex = 5;
             // 
             // panel2
             // 
@@ -270,89 +173,104 @@
             this.btnSimpanAkun.Text = "Simpan";
             this.btnSimpanAkun.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSimpanAkun.UseVisualStyleBackColor = true;
+            this.btnSimpanAkun.Click += new System.EventHandler(this.btnSimpanAkun_Click);
             // 
-            // panel3
+            // dgvAkun
             // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.txtMetode);
-            this.panel3.Controls.Add(this.label1);
-            this.panel3.Controls.Add(this.txtIdMetode);
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(3, 3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(756, 68);
-            this.panel3.TabIndex = 1;
+            this.dgvAkun.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAkun.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgvAkun.Location = new System.Drawing.Point(3, 126);
+            this.dgvAkun.Name = "dgvAkun";
+            this.dgvAkun.Size = new System.Drawing.Size(756, 165);
+            this.dgvAkun.TabIndex = 5;
             // 
-            // txtMetode
+            // groupBox2
             // 
-            this.txtMetode.Location = new System.Drawing.Point(122, 39);
-            this.txtMetode.Name = "txtMetode";
-            this.txtMetode.Size = new System.Drawing.Size(214, 20);
-            this.txtMetode.TabIndex = 7;
+            this.groupBox2.Controls.Add(this.btnCariAkun);
+            this.groupBox2.Controls.Add(this.txtCariAkun);
+            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox2.Location = new System.Drawing.Point(3, 73);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(756, 53);
+            this.groupBox2.TabIndex = 4;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Pencarian Data";
             // 
-            // label1
+            // btnCariAkun
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(11, 42);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 13);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Metode Pembayaran";
+            this.btnCariAkun.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnCariAkun.Image = ((System.Drawing.Image)(resources.GetObject("btnCariAkun.Image")));
+            this.btnCariAkun.Location = new System.Drawing.Point(430, 10);
+            this.btnCariAkun.Name = "btnCariAkun";
+            this.btnCariAkun.Size = new System.Drawing.Size(75, 36);
+            this.btnCariAkun.TabIndex = 176;
+            this.btnCariAkun.UseVisualStyleBackColor = true;
             // 
-            // txtIdMetode
+            // txtCariAkun
             // 
-            this.txtIdMetode.Location = new System.Drawing.Point(122, 13);
-            this.txtIdMetode.Name = "txtIdMetode";
-            this.txtIdMetode.Size = new System.Drawing.Size(100, 20);
-            this.txtIdMetode.TabIndex = 5;
+            this.txtCariAkun.Location = new System.Drawing.Point(8, 19);
+            this.txtCariAkun.Name = "txtCariAkun";
+            this.txtCariAkun.Size = new System.Drawing.Size(416, 20);
+            this.txtCariAkun.TabIndex = 176;
             // 
-            // label4
+            // panel1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(11, 16);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(18, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "ID";
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.txtNamaAkun);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.txtIdAkun);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(756, 70);
+            this.panel1.TabIndex = 0;
             // 
-            // groupBox1
+            // txtNamaAkun
             // 
-            this.groupBox1.Controls.Add(this.btnCariMetode);
-            this.groupBox1.Controls.Add(this.txtCariMetode);
-            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupBox1.Location = new System.Drawing.Point(3, 71);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(756, 53);
-            this.groupBox1.TabIndex = 5;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Pencarian Data";
+            this.txtNamaAkun.Location = new System.Drawing.Point(98, 34);
+            this.txtNamaAkun.Name = "txtNamaAkun";
+            this.txtNamaAkun.Size = new System.Drawing.Size(214, 20);
+            this.txtNamaAkun.TabIndex = 7;
             // 
-            // btnCariMetode
+            // label3
             // 
-            this.btnCariMetode.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnCariMetode.Image = ((System.Drawing.Image)(resources.GetObject("btnCariMetode.Image")));
-            this.btnCariMetode.Location = new System.Drawing.Point(430, 10);
-            this.btnCariMetode.Name = "btnCariMetode";
-            this.btnCariMetode.Size = new System.Drawing.Size(75, 36);
-            this.btnCariMetode.TabIndex = 176;
-            this.btnCariMetode.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(1, 37);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(91, 13);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Nama Akun Bank";
             // 
-            // txtCariMetode
+            // txtIdAkun
             // 
-            this.txtCariMetode.Location = new System.Drawing.Point(8, 19);
-            this.txtCariMetode.Name = "txtCariMetode";
-            this.txtCariMetode.Size = new System.Drawing.Size(416, 20);
-            this.txtCariMetode.TabIndex = 176;
+            this.txtIdAkun.Location = new System.Drawing.Point(98, 8);
+            this.txtIdAkun.Name = "txtIdAkun";
+            this.txtIdAkun.Size = new System.Drawing.Size(100, 20);
+            this.txtIdAkun.TabIndex = 5;
             // 
-            // dgvMetode
+            // label2
             // 
-            this.dgvMetode.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMetode.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgvMetode.Location = new System.Drawing.Point(3, 124);
-            this.dgvMetode.Name = "dgvMetode";
-            this.dgvMetode.Size = new System.Drawing.Size(756, 165);
-            this.dgvMetode.TabIndex = 6;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(1, 11);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(18, 13);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "ID";
+            // 
+            // tabMetode
+            // 
+            this.tabMetode.BackColor = System.Drawing.SystemColors.Control;
+            this.tabMetode.Controls.Add(this.panel4);
+            this.tabMetode.Controls.Add(this.dgvMetode);
+            this.tabMetode.Controls.Add(this.groupBox1);
+            this.tabMetode.Controls.Add(this.panel3);
+            this.tabMetode.Location = new System.Drawing.Point(4, 22);
+            this.tabMetode.Name = "tabMetode";
+            this.tabMetode.Padding = new System.Windows.Forms.Padding(3);
+            this.tabMetode.Size = new System.Drawing.Size(762, 349);
+            this.tabMetode.TabIndex = 1;
+            this.tabMetode.Text = "Metode Pembayaran";
             // 
             // panel4
             // 
@@ -428,6 +346,89 @@
             this.btnSimpanMetode.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSimpanMetode.UseVisualStyleBackColor = true;
             // 
+            // dgvMetode
+            // 
+            this.dgvMetode.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvMetode.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgvMetode.Location = new System.Drawing.Point(3, 124);
+            this.dgvMetode.Name = "dgvMetode";
+            this.dgvMetode.Size = new System.Drawing.Size(756, 165);
+            this.dgvMetode.TabIndex = 6;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.btnCariMetode);
+            this.groupBox1.Controls.Add(this.txtCariMetode);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox1.Location = new System.Drawing.Point(3, 71);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(756, 53);
+            this.groupBox1.TabIndex = 5;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Pencarian Data";
+            // 
+            // btnCariMetode
+            // 
+            this.btnCariMetode.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnCariMetode.Image = ((System.Drawing.Image)(resources.GetObject("btnCariMetode.Image")));
+            this.btnCariMetode.Location = new System.Drawing.Point(430, 10);
+            this.btnCariMetode.Name = "btnCariMetode";
+            this.btnCariMetode.Size = new System.Drawing.Size(75, 36);
+            this.btnCariMetode.TabIndex = 176;
+            this.btnCariMetode.UseVisualStyleBackColor = true;
+            // 
+            // txtCariMetode
+            // 
+            this.txtCariMetode.Location = new System.Drawing.Point(8, 19);
+            this.txtCariMetode.Name = "txtCariMetode";
+            this.txtCariMetode.Size = new System.Drawing.Size(416, 20);
+            this.txtCariMetode.TabIndex = 176;
+            // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.txtMetode);
+            this.panel3.Controls.Add(this.label1);
+            this.panel3.Controls.Add(this.txtIdMetode);
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(3, 3);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(756, 68);
+            this.panel3.TabIndex = 1;
+            // 
+            // txtMetode
+            // 
+            this.txtMetode.Location = new System.Drawing.Point(122, 39);
+            this.txtMetode.Name = "txtMetode";
+            this.txtMetode.Size = new System.Drawing.Size(214, 20);
+            this.txtMetode.TabIndex = 7;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(11, 42);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(105, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Metode Pembayaran";
+            // 
+            // txtIdMetode
+            // 
+            this.txtIdMetode.Location = new System.Drawing.Point(122, 13);
+            this.txtIdMetode.Name = "txtIdMetode";
+            this.txtIdMetode.Size = new System.Drawing.Size(100, 20);
+            this.txtIdMetode.TabIndex = 5;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(11, 16);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(18, 13);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "ID";
+            // 
             // FrmPengaturanPembayaran
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -443,19 +444,19 @@
             this.Text = "Pengaturan Pembayaran";
             this.tabControl1.ResumeLayout(false);
             this.tabAkun.ResumeLayout(false);
-            this.tabMetode.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAkun)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAkun)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.tabMetode.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMetode)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvMetode)).EndInit();
-            this.panel4.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }

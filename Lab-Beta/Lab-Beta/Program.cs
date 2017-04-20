@@ -16,7 +16,7 @@ namespace Lab_Beta
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Master.FrmDokter());
+            Application.Run(new Pengaturan.FrmPengaturanPembayaran());
         }
     }
 }

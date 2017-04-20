@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab_Beta.Models
 {
-    public class BloodGroupModel:CoreModel
+    public class BloodGroupModel : CoreModel
     {
         public string Name { get; set; }
         public string Type { get; set; }

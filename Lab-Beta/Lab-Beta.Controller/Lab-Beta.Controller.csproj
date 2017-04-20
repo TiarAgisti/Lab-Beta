@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="BloodGroupController.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Master\AccountBankController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -55,7 +56,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Master\" />
     <Folder Include="Transaksi\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
